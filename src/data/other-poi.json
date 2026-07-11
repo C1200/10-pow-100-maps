@@ -1,0 +1,20 @@
+{
+  "poi": [
+    {
+      "id": "14ab9078-a99b-45e6-8ed7-7fe8949fb291",
+      "type": "pinlet",
+      "subtype": "other",
+      "label": "AISCo. Kelton Steelworks",
+      "coords": [9160, -4840],
+      "weight": 2
+    },
+    {
+      "id": "9bd50e57-71a1-45e2-8a1f-f4d2ddef5426",
+      "type": "pinlet",
+      "subtype": "museum",
+      "label": "National Railway Museum",
+      "coords": [9241, -5064],
+      "weight": 2
+    }
+  ]
+}

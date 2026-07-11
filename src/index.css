@@ -125,8 +125,15 @@
   visibility: hidden;
 }
 
-.poi img.poi-marker {
+.poi > div {
   width: 100%;
+  height: 100%;
+}
+
+.poi img.poi-marker {
+  display: block;
+  height: 100%;
+  margin: auto;
 }
 
 .poi p.poi-label {
@@ -169,4 +176,8 @@
 
 .poi.poi-type-settlement.poi-subtype-city p.poi-label {
   font-size: 20px;
+}
+
+.poi.poi-type-settlement.poi-subtype-town p.poi-label {
+  font-size: 15px;
 }

@@ -40,13 +40,14 @@
       "id": "be1357ce-4f51-4b1d-a54a-4089935f5dc1",
       "type": "transport-stop",
       "subtype": "public-rail",
-      "label": "Kelton-Ashford ",
+      "label": "Kelton-Ashford",
       "coords": [
         9600,
         -4700
       ],
       "dataSource": "railinfo:309:0",
-      "weight": 2
+      "weight": 2,
+      "$label": "Kelton-Ashford "
     },
     {
       "id": "75cccba2-ba3e-4fc8-b02b-3de587308b7e",
@@ -256,13 +257,14 @@
       "id": "16709409-ae42-4db8-b101-dd382b17315f",
       "type": "transport-stop",
       "subtype": "public-rail",
-      "label": "Waterville Central (Intl.)",
+      "label": "Waterville Central",
       "coords": [
         7300,
         -700
       ],
       "dataSource": "railinfo:50:0",
-      "weight": 3
+      "weight": 3,
+      "$label": "Waterville Central (Intl.)"
     },
     {
       "id": "a42d589b-ab65-4eb4-9dad-c9859a820601",
@@ -311,6 +313,102 @@
       ],
       "weight": 6,
       "dataSource": "railinfo:67:0"
+    },
+    {
+      "id": "815125b6-f43a-4f64-8028-6b6e464d4b9e",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Mystical Cave",
+      "coords": [
+        9668,
+        -2924
+      ],
+      "weight": 1,
+      "dataSource": "railinfo:169:0"
+    },
+    {
+      "id": "49075f55-f32a-4608-a4bb-b0141ee10f3f",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Ominous Ruins",
+      "coords": [
+        8767,
+        -2521
+      ],
+      "weight": 0,
+      "dataSource": "railinfo:7:0"
+    },
+    {
+      "id": "750b5a9f-350c-4242-86f1-911b5ecda360",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Broad Green/Breda Grön",
+      "coords": [
+        6365,
+        -6701
+      ],
+      "weight": 1,
+      "dataSource": "railinfo:263:0"
+    },
+    {
+      "id": "71327b3a-be28-43a8-8ac0-b9fc033e14a6",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Dark Forest Mansion",
+      "coords": [
+        7912,
+        -2044
+      ],
+      "weight": 1,
+      "dataSource": "railinfo:157:0"
+    },
+    {
+      "id": "2383f172-b736-4711-a943-7d1016666ac2",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Liverpool Lime Street",
+      "coords": [
+        7516,
+        -6652
+      ],
+      "weight": 3,
+      "dataSource": "railinfo:262:0"
+    },
+    {
+      "id": "182191bd-8a7c-4e57-82a7-a203990c97a4",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Prescot",
+      "coords": [
+        6153,
+        -6287
+      ],
+      "weight": 0,
+      "dataSource": "railinfo:349:0"
+    },
+    {
+      "id": "63ca6412-a341-4bb9-ab66-99c107e9c873",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Ursus Oppidulum",
+      "coords": [
+        4975,
+        -6831
+      ],
+      "weight": 0,
+      "dataSource": "railinfo:301:0"
+    },
+    {
+      "id": "ae70a1f2-64e3-4eac-af3b-9ab58d4db6d6",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Alpinetor Central",
+      "coords": [
+        4462,
+        61
+      ],
+      "weight": 2,
+      "dataSource": "railinfo:73:0"
     }
   ]
 }

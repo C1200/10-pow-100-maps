@@ -4,6 +4,10 @@ import { PoiMarkers, UserInterface } from "./components";
 import { getData, type MapData } from "./data";
 import crs from "./util/crs";
 
+const tilesUrl = import.meta.env.DEV
+  ? "http://server.mrjulsen.de:8100"
+  : "https://julsen-bluemap.c1200.workers.dev";
+
 function Map() {
   const [data, setData] = useState<MapData | null>(null);
 
@@ -22,7 +26,7 @@ function Map() {
       attributionControl={false}
     >
       <TileLayer
-        url="https://julsen-bluemap.c1200.workers.dev/maps/world/tiles/1/x{x}/z{y}.png"
+        url={`${tilesUrl}/maps/world/tiles/1/x{x}/z{y}.png`}
         tileSize={500}
         minZoom={-3}
         maxZoom={2}

@@ -15,6 +15,30 @@
       "label": "Salzingen",
       "coords": [2067, 2459],
       "weight": 20
+    },
+    {
+      "id": "3f1841b7-6ac3-46a5-af22-3b1e21845154",
+      "type": "settlement",
+      "subtype": "city",
+      "label": "Liverpool",
+      "coords": [7705, -6686],
+      "weight": 20
+    },
+    {
+      "id": "ef9b275c-cbc1-4421-b1e6-bac4dad63d04",
+      "type": "settlement",
+      "subtype": "town",
+      "label": "Prescot",
+      "coords": [6213, -6372],
+      "weight": 15
+    },
+    {
+      "id": "8ff5b277-0e43-47b7-af8d-54403695db07",
+      "type": "settlement",
+      "subtype": "town",
+      "label": "Lavender Valley",
+      "coords": [2026, 161],
+      "weight": 15
     }
   ]
 }

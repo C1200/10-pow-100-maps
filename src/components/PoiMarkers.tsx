@@ -31,7 +31,8 @@ export default function PoiMarkers({ data }: PoiMarkersProps) {
       <DivMarker
         key={poi.id}
         className={classNames.join(" ")}
-        size={[16, 16]}
+        size={poi.type === "pinlet" ? [25, 25] : [16, 16]}
+        anchor={poi.type === "pinlet" ? [12.5, 25] : [8, 8]}
         position={crs.xz(...poi.coords)}
       >
         {poi.type !== "settlement" && (
