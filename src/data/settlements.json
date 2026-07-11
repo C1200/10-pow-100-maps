@@ -1,0 +1,20 @@
+{
+  "poi": [
+    {
+      "id": "ecf41b67-5680-4da5-882f-c4c15604bd52",
+      "type": "settlement",
+      "subtype": "city",
+      "label": "Spawn",
+      "coords": [2103, -937],
+      "weight": 20
+    },
+    {
+      "id": "c57b3d87-e127-4dfb-a863-6593e86550c5",
+      "type": "settlement",
+      "subtype": "city",
+      "label": "Salzingen",
+      "coords": [2067, 2459],
+      "weight": 20
+    }
+  ]
+}

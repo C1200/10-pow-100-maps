@@ -1,0 +1,316 @@
+{
+  "poi": [
+    {
+      "id": "add206fa-8c43-44af-8149-14356ba22d11",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Cand Cambeys Depot",
+      "coords": [
+        1400,
+        -2000
+      ],
+      "dataSource": "railinfo:233:0",
+      "weight": 0
+    },
+    {
+      "id": "070b374a-db8c-4c30-a043-cd6a19fdf3f6",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Crewe",
+      "coords": [
+        4440,
+        -2700
+      ],
+      "dataSource": "railinfo:249:0",
+      "weight": 4
+    },
+    {
+      "id": "2a210ac9-f2f3-4472-a05d-938765d477f2",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Devesas",
+      "coords": [
+        8450,
+        1600
+      ],
+      "dataSource": "railinfo:293:0",
+      "weight": 0
+    },
+    {
+      "id": "be1357ce-4f51-4b1d-a54a-4089935f5dc1",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Kelton-Ashford ",
+      "coords": [
+        9600,
+        -4700
+      ],
+      "dataSource": "railinfo:309:0",
+      "weight": 2
+    },
+    {
+      "id": "75cccba2-ba3e-4fc8-b02b-3de587308b7e",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Lipno",
+      "coords": [
+        2925,
+        -3400
+      ],
+      "dataSource": "railinfo:368:0",
+      "weight": 0
+    },
+    {
+      "id": "f659bb14-56d1-464e-82e8-824dfb7ff246",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch",
+      "coords": [
+        4500,
+        -1800
+      ],
+      "dataSource": "railinfo:336:0",
+      "weight": 0
+    },
+    {
+      "id": "207392cd-1fa1-44b8-9b90-2a540adaf30c",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "London Euston",
+      "coords": [
+        5900,
+        -2700
+      ],
+      "dataSource": "railinfo:248:0",
+      "weight": 3
+    },
+    {
+      "id": "76e3d132-90d2-4d45-a425-95224ebd4915",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "London Porter Street",
+      "coords": [
+        12000,
+        -8000
+      ],
+      "dataSource": "railinfo:402:0",
+      "weight": 0
+    },
+    {
+      "id": "920d73a9-4085-4d12-92e7-0826deb6b1fa",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Mary Street",
+      "coords": [
+        3300,
+        -2100
+      ],
+      "dataSource": "railinfo:231:0",
+      "weight": 3
+    },
+    {
+      "id": "09cbba44-d881-466a-b7b3-ad20a599cf85",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Mouldsworth",
+      "coords": [
+        3700,
+        -3500
+      ],
+      "dataSource": "railinfo:304:0",
+      "weight": 2
+    },
+    {
+      "id": "72540d8b-0dbc-4c6a-a3be-ea67e2cd2120",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Newlands South and Preservation Centre",
+      "coords": [
+        11700,
+        -7600
+      ],
+      "dataSource": "railinfo:401:0",
+      "weight": 0
+    },
+    {
+      "id": "5a455da9-3bae-41e8-a3ec-1d26ead9b8df",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Riverside Central",
+      "coords": [
+        1700,
+        -1000
+      ],
+      "dataSource": "railinfo:4:0",
+      "weight": 2
+    },
+    {
+      "id": "60c942ef-8dd1-44fb-98c5-b5697add9b26",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Royère Nord",
+      "coords": [
+        4900,
+        -1350
+      ],
+      "dataSource": "railinfo:360:0",
+      "weight": 0
+    },
+    {
+      "id": "cf074a4b-ba54-4027-9d1c-a18e2639b292",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "São Bento",
+      "coords": [
+        8500,
+        1400
+      ],
+      "dataSource": "railinfo:294:0",
+      "weight": 1
+    },
+    {
+      "id": "22395a9d-eb56-4731-8154-24f9ccf4e2e9",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Sawbridgeworth",
+      "coords": [
+        7300,
+        -3100
+      ],
+      "dataSource": "railinfo:413:0",
+      "weight": 0
+    },
+    {
+      "id": "566ecf1e-cce5-4b76-958d-f2bc083069f0",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Spawn",
+      "coords": [
+        2250,
+        -1000
+      ],
+      "dataSource": "railinfo:83:0",
+      "weight": 10
+    },
+    {
+      "id": "e8f7445c-b8c3-43e2-a866-8b6398e1fd7e",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "TNT Depot",
+      "coords": [
+        5675,
+        -200
+      ],
+      "dataSource": "railinfo:361:0",
+      "weight": 0
+    },
+    {
+      "id": "1d92b2e8-183e-4f09-beb5-d0ff371eb8f8",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "TNT Mountain",
+      "coords": [
+        6225,
+        150
+      ],
+      "dataSource": "railinfo:357:0",
+      "weight": 0
+    },
+    {
+      "id": "3ab96454-9e67-458e-b41f-e6df269c74aa",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Two Cities Central",
+      "coords": [
+        2400,
+        -2075
+      ],
+      "dataSource": "railinfo:8:0",
+      "weight": 7
+    },
+    {
+      "id": "6868503b-d3e6-46c8-9594-f7f0f1729bcc",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Waterville Airport Parkway",
+      "coords": [
+        8500,
+        -700
+      ],
+      "dataSource": "railinfo:102:0",
+      "weight": 1
+    },
+    {
+      "id": "87709c56-b0b7-4520-9c19-0429b21a7ac9",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Waterville Airport Terminal",
+      "coords": [
+        9000,
+        -100
+      ],
+      "dataSource": "railinfo:412:0",
+      "weight": 0
+    },
+    {
+      "id": "16709409-ae42-4db8-b101-dd382b17315f",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Waterville Central (Intl.)",
+      "coords": [
+        7300,
+        -700
+      ],
+      "dataSource": "railinfo:50:0",
+      "weight": 3
+    },
+    {
+      "id": "a42d589b-ab65-4eb4-9dad-c9859a820601",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Watford High Street",
+      "coords": [
+        4100,
+        -2400
+      ],
+      "dataSource": "railinfo:258:0",
+      "weight": 0
+    },
+    {
+      "id": "71fcb706-1d61-421a-9235-7dbb15d94a61",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Wawer",
+      "coords": [
+        2600,
+        -3100
+      ],
+      "dataSource": "railinfo:16:0",
+      "weight": 4
+    },
+    {
+      "id": "29a8e833-206e-4e72-896d-e6faab77c8c5",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Wetwang",
+      "coords": [
+        13000,
+        -4600
+      ],
+      "dataSource": "railinfo:400:0",
+      "weight": 0
+    },
+    {
+      "id": "4c3f1bc9-1cbe-46c0-9d91-3b82c32e9f3b",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Salzingen Hbf",
+      "coords": [
+        2070,
+        2396
+      ],
+      "weight": 6,
+      "dataSource": "railinfo:67:0"
+    }
+  ]
+}
