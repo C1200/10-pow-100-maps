@@ -22,7 +22,7 @@ function Map() {
       attributionControl={false}
     >
       <TileLayer
-        url="https://julsen-bluemap.c1200.workers.dev/maps/world/tiles/x{x}z{y}.png"
+        url="https://julsen-bluemap.c1200.workers.dev/maps/world/tiles/1/x{x}/z{y}.png"
         tileSize={500}
         minZoom={-3}
         maxZoom={2}
