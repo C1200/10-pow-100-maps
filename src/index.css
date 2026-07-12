@@ -3,6 +3,7 @@
 
 * {
   font-family: "Google Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 .leaflet-container {
@@ -54,13 +55,19 @@
 
 /* -- Search -- */
 
+.search-container {
+  width: 100%;
+}
+
 .search {
-  width: 350px;
+  max-width: 400px;
   margin: 15px;
   font-size: 15px;
   background-color: #fff;
   border-radius: 23px;
   overflow: hidden;
+  pointer-events: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .search .search-form {
@@ -110,6 +117,121 @@
   color: #666;
 }
 
+/* -- Toast -- */
+
+.toast {
+  background-color: #000;
+  color: #fff;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  font-size: 15px;
+  transform: translateY(100%);
+  visibility: hidden;
+  transition:
+    visibility 0.30s,
+    transform 0.30s;
+}
+
+.toast.toast-show {
+  transform: translateY(0%);
+  visibility: visible;
+}
+
+/* -- POI Info -- */
+
+.poi-info-container {
+  width: 100%;
+}
+
+.poi-info-container .sticky-shadow {
+  position: absolute;
+  width: 100vw;
+  max-width: 430px;
+  height: 100px;
+  pointer-events: none;
+  background-image: linear-gradient(#0004, #0000);
+}
+
+.poi-info {
+  max-width: 430px;
+  height: 100%;
+  font-size: 15px;
+  background-color: #fff;
+  pointer-events: auto;
+  overflow: auto;
+  transform: translateX(-100%);
+  visibility: hidden;
+  transition:
+    visibility 0.30s,
+    transform 0.30s;
+}
+
+.poi-info.poi-info-show {
+  transform: translateX(0%);
+  visibility: visible;
+}
+
+.poi-info .showcase-container {
+  background-color: #598be2;
+  width: 100%;
+  aspect-ratio: 13/8;
+}
+
+.poi-info .info-section {
+  padding: 15px 25px;
+  border-bottom: 1px solid #ddd;
+}
+
+.poi-info .poi-title {
+  margin: 0;
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: normal;
+  overflow-wrap: break-word;
+}
+
+.poi-info .poi-subtitle {
+  color: #666;
+  margin: 6px 0 0 0;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.poi-info .transport-section {
+  margin: 0 0 15px 0;
+  display: grid;
+  grid-template-rows: 24px 1fr;
+  grid-template-columns: 40px 1fr;
+}
+
+.poi-info .transport-section:last-child {
+  margin: 0;
+}
+
+.poi-info .transport-section .section-icon,
+.poi-info .transport-section .section-title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.poi-info .transport-section .section-lines {
+  margin: 10px 0 0 0;
+  padding: 0;
+  display: grid;
+  gap: 4px;
+  grid-column: 2;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+}
+
+.poi-info .transport-section .section-lines li {
+  text-align: center;
+  padding: 2px;
+  border-radius: 4px;
+}
+
 /* -- POI Markers -- */
 
 .poi {
@@ -155,6 +277,11 @@
     1px -1px #000,
     0 -1px #000,
     0 1px #000;
+  display: none;
+}
+
+.poi.poi-show-label p.poi-label {
+  display: block;
 }
 
 .poi:hover p.poi-label {
@@ -175,9 +302,13 @@
 }
 
 .poi.poi-type-settlement.poi-subtype-city p.poi-label {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .poi.poi-type-settlement.poi-subtype-town p.poi-label {
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.poi.poi-type-settlement.poi-subtype-village p.poi-label {
+  font-size: 12px;
 }

@@ -1,7 +1,11 @@
-import { useEffect, useState } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
-import { PoiMarkers, UserInterface } from "./components";
-import { getData, type MapData } from "./data";
+import {
+  PoiMarkers,
+  UIContextMenu,
+  UIPoiInfo,
+  UISearch,
+  UserInterface,
+} from "./components";
 import crs from "./util/crs";
 
 const tilesUrl = import.meta.env.DEV
@@ -9,14 +13,6 @@ const tilesUrl = import.meta.env.DEV
   : "https://julsen-bluemap.c1200.workers.dev";
 
 function Map() {
-  const [data, setData] = useState<MapData | null>(null);
-
-  useEffect(() => {
-    getData().then((data) => setData(data));
-  }, []);
-
-  if (!data) return null;
-
   return (
     <MapContainer
       crs={crs}
@@ -25,17 +21,21 @@ function Map() {
       zoomControl={false}
       attributionControl={false}
     >
-      <TileLayer
-        url={`${tilesUrl}/maps/world/tiles/1/x{x}/z{y}.png`}
-        tileSize={500}
-        minZoom={-3}
-        maxZoom={2}
-        minNativeZoom={0}
-        maxNativeZoom={0}
-      />
+      <UserInterface>
+        <TileLayer
+          url={`${tilesUrl}/maps/world/tiles/1/x{x}/z{y}.png`}
+          tileSize={500}
+          minZoom={-3}
+          maxZoom={2}
+          minNativeZoom={0}
+          maxNativeZoom={0}
+        />
 
-      <UserInterface />
-      <PoiMarkers data={data} />
+        <UIContextMenu />
+        <UIPoiInfo />
+        <UISearch />
+        <PoiMarkers />
+      </UserInterface>
     </MapContainer>
   );
 }

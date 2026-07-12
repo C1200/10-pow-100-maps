@@ -10,7 +10,11 @@
         -2000
       ],
       "dataSource": "railinfo:233:0",
-      "weight": 0
+      "weight": 6,
+      "transportLines": [
+        "S218",
+        "S705"
+      ]
     },
     {
       "id": "070b374a-db8c-4c30-a043-cd6a19fdf3f6",
@@ -22,7 +26,21 @@
         -2700
       ],
       "dataSource": "railinfo:249:0",
-      "weight": 4
+      "weight": 41,
+      "transportLines": [
+        "601 new routing",
+        "HS600 V2",
+        "IC304",
+        "R409",
+        "R57",
+        "RE158 KANR",
+        "RE158 SJ",
+        "RE601",
+        "RE603",
+        "RE724",
+        "RE793",
+        "S605"
+      ]
     },
     {
       "id": "2a210ac9-f2f3-4472-a05d-938765d477f2",
@@ -34,7 +52,10 @@
         1600
       ],
       "dataSource": "railinfo:293:0",
-      "weight": 0
+      "weight": 3,
+      "transportLines": [
+        "R308"
+      ]
     },
     {
       "id": "be1357ce-4f51-4b1d-a54a-4089935f5dc1",
@@ -46,8 +67,16 @@
         -4700
       ],
       "dataSource": "railinfo:309:0",
-      "weight": 2,
-      "$label": "Kelton-Ashford "
+      "weight": 20,
+      "$label": "Kelton-Ashford ",
+      "transportLines": [
+        "HS600 V2",
+        "IC23",
+        "IC304",
+        "RE158 KANR",
+        "RE81",
+        "S80"
+      ]
     },
     {
       "id": "75cccba2-ba3e-4fc8-b02b-3de587308b7e",
@@ -59,7 +88,11 @@
         -3400
       ],
       "dataSource": "railinfo:368:0",
-      "weight": 0
+      "weight": 6,
+      "transportLines": [
+        "R640",
+        "R641 (Loop)"
+      ]
     },
     {
       "id": "f659bb14-56d1-464e-82e8-824dfb7ff246",
@@ -71,7 +104,10 @@
         -1800
       ],
       "dataSource": "railinfo:336:0",
-      "weight": 0
+      "weight": 3,
+      "transportLines": [
+        "R409"
+      ]
     },
     {
       "id": "207392cd-1fa1-44b8-9b90-2a540adaf30c",
@@ -83,7 +119,20 @@
         -2700
       ],
       "dataSource": "railinfo:248:0",
-      "weight": 3
+      "weight": 37,
+      "transportLines": [
+        "Bakerloo Line",
+        "IC 594",
+        "IC23",
+        "IC306",
+        "RE601",
+        "RE603",
+        "RE724",
+        "RE793",
+        "S602",
+        "S605",
+        "TFL 1"
+      ]
     },
     {
       "id": "76e3d132-90d2-4d45-a425-95224ebd4915",
@@ -95,7 +144,8 @@
         -8000
       ],
       "dataSource": "railinfo:402:0",
-      "weight": 0
+      "weight": 0,
+      "transportLines": []
     },
     {
       "id": "920d73a9-4085-4d12-92e7-0826deb6b1fa",
@@ -107,7 +157,19 @@
         -2100
       ],
       "dataSource": "railinfo:231:0",
-      "weight": 3
+      "weight": 34,
+      "transportLines": [
+        "601 new routing",
+        "IC 594",
+        "R 575",
+        "RE22",
+        "RE601",
+        "RE724",
+        "S218",
+        "S602",
+        "TfT 2",
+        "TfT 3"
+      ]
     },
     {
       "id": "09cbba44-d881-466a-b7b3-ad20a599cf85",
@@ -119,7 +181,16 @@
         -3500
       ],
       "dataSource": "railinfo:304:0",
-      "weight": 2
+      "weight": 24,
+      "transportLines": [
+        "IC304",
+        "R640",
+        "R641 (Loop)",
+        "RE158 KANR",
+        "RE158 SJ",
+        "RE740",
+        "RE793"
+      ]
     },
     {
       "id": "72540d8b-0dbc-4c6a-a3be-ea67e2cd2120",
@@ -131,7 +202,10 @@
         -7600
       ],
       "dataSource": "railinfo:401:0",
-      "weight": 0
+      "weight": 3,
+      "transportLines": [
+        "RE81"
+      ]
     },
     {
       "id": "5a455da9-3bae-41e8-a3ec-1d26ead9b8df",
@@ -143,7 +217,16 @@
         -1000
       ],
       "dataSource": "railinfo:4:0",
-      "weight": 2
+      "weight": 24,
+      "transportLines": [
+        "IR704",
+        "R24",
+        "R27",
+        "R28",
+        "R709",
+        "RE601",
+        "SL701"
+      ]
     },
     {
       "id": "60c942ef-8dd1-44fb-98c5-b5697add9b26",
@@ -155,7 +238,10 @@
         -1350
       ],
       "dataSource": "railinfo:360:0",
-      "weight": 0
+      "weight": 3,
+      "transportLines": [
+        "R409"
+      ]
     },
     {
       "id": "cf074a4b-ba54-4027-9d1c-a18e2639b292",
@@ -167,7 +253,12 @@
         1400
       ],
       "dataSource": "railinfo:294:0",
-      "weight": 1
+      "weight": 10,
+      "transportLines": [
+        "R29",
+        "R308",
+        "R667"
+      ]
     },
     {
       "id": "22395a9d-eb56-4731-8154-24f9ccf4e2e9",
@@ -179,7 +270,10 @@
         -3100
       ],
       "dataSource": "railinfo:413:0",
-      "weight": 0
+      "weight": 3,
+      "transportLines": [
+        "IC304"
+      ]
     },
     {
       "id": "566ecf1e-cce5-4b76-958d-f2bc083069f0",
@@ -191,7 +285,38 @@
         -1000
       ],
       "dataSource": "railinfo:83:0",
-      "weight": 10
+      "weight": 100,
+      "transportLines": [
+        "601 new routing",
+        "HS13",
+        "HS20",
+        "HS21",
+        "HS300",
+        "HS600",
+        "HS70",
+        "IC108",
+        "IC125",
+        "ICN90",
+        "IR1",
+        "IR704",
+        "R10",
+        "R17",
+        "R24",
+        "R27",
+        "R28",
+        "R42",
+        "R709",
+        "RE13",
+        "RE20",
+        "RE601",
+        "RE64",
+        "RE710",
+        "S1",
+        "S4",
+        "S705",
+        "SL701",
+        "TfT 2"
+      ]
     },
     {
       "id": "e8f7445c-b8c3-43e2-a866-8b6398e1fd7e",
@@ -203,7 +328,10 @@
         -200
       ],
       "dataSource": "railinfo:361:0",
-      "weight": 0
+      "weight": 3,
+      "transportLines": [
+        "R403"
+      ]
     },
     {
       "id": "1d92b2e8-183e-4f09-beb5-d0ff371eb8f8",
@@ -215,7 +343,11 @@
         150
       ],
       "dataSource": "railinfo:357:0",
-      "weight": 0
+      "weight": 6,
+      "transportLines": [
+        "R402",
+        "R409"
+      ]
     },
     {
       "id": "3ab96454-9e67-458e-b41f-e6df269c74aa",
@@ -227,7 +359,30 @@
         -2075
       ],
       "dataSource": "railinfo:8:0",
-      "weight": 7
+      "weight": 72,
+      "transportLines": [
+        "601 new routing",
+        "EIC703",
+        "HS600",
+        "HS842",
+        "IC 590",
+        "IC108",
+        "IC125",
+        "ICN90",
+        "Inner Circle",
+        "IR1",
+        "IR704",
+        "Outer Circle",
+        "R 575",
+        "R10",
+        "R17",
+        "RE13",
+        "RE20",
+        "RE22",
+        "RE44",
+        "S218",
+        "S602"
+      ]
     },
     {
       "id": "6868503b-d3e6-46c8-9594-f7f0f1729bcc",
@@ -239,7 +394,13 @@
         -700
       ],
       "dataSource": "railinfo:102:0",
-      "weight": 1
+      "weight": 13,
+      "transportLines": [
+        "R304",
+        "R305",
+        "R308",
+        "W10"
+      ]
     },
     {
       "id": "87709c56-b0b7-4520-9c19-0429b21a7ac9",
@@ -251,7 +412,10 @@
         -100
       ],
       "dataSource": "railinfo:412:0",
-      "weight": 0
+      "weight": 3,
+      "transportLines": [
+        "R308"
+      ]
     },
     {
       "id": "16709409-ae42-4db8-b101-dd382b17315f",
@@ -263,8 +427,19 @@
         -700
       ],
       "dataSource": "railinfo:50:0",
-      "weight": 3,
-      "$label": "Waterville Central (Intl.)"
+      "weight": 31,
+      "$label": "Waterville Central (Intl.)",
+      "transportLines": [
+        "HS21",
+        "HS300",
+        "IC 594",
+        "IC306",
+        "R302",
+        "R304",
+        "R305",
+        "R308",
+        "RE301"
+      ]
     },
     {
       "id": "a42d589b-ab65-4eb4-9dad-c9859a820601",
@@ -276,7 +451,10 @@
         -2400
       ],
       "dataSource": "railinfo:258:0",
-      "weight": 0
+      "weight": 3,
+      "transportLines": [
+        "S602"
+      ]
     },
     {
       "id": "71fcb706-1d61-421a-9235-7dbb15d94a61",
@@ -288,7 +466,21 @@
         -3100
       ],
       "dataSource": "railinfo:16:0",
-      "weight": 4
+      "weight": 41,
+      "transportLines": [
+        "50",
+        "IC108",
+        "IC125",
+        "IC23",
+        "ICN90",
+        "IR1",
+        "M21",
+        "M22",
+        "R10",
+        "R640",
+        "RE13",
+        "RE20"
+      ]
     },
     {
       "id": "29a8e833-206e-4e72-896d-e6faab77c8c5",
@@ -300,7 +492,10 @@
         -4600
       ],
       "dataSource": "railinfo:400:0",
-      "weight": 0
+      "weight": 3,
+      "transportLines": [
+        "RE81"
+      ]
     },
     {
       "id": "4c3f1bc9-1cbe-46c0-9d91-3b82c32e9f3b",
@@ -311,8 +506,28 @@
         2070,
         2396
       ],
-      "weight": 6,
-      "dataSource": "railinfo:67:0"
+      "weight": 62,
+      "dataSource": "railinfo:67:0",
+      "transportLines": [
+        "HS 595",
+        "HS600",
+        "IC125",
+        "IC25",
+        "IC40",
+        "IC693",
+        "IR1",
+        "R32",
+        "R51",
+        "R57",
+        "R61",
+        "RE20",
+        "RE55",
+        "RE64",
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
     },
     {
       "id": "815125b6-f43a-4f64-8028-6b6e464d4b9e",
@@ -323,8 +538,13 @@
         9668,
         -2924
       ],
-      "weight": 1,
-      "dataSource": "railinfo:169:0"
+      "weight": 10,
+      "dataSource": "railinfo:169:0",
+      "transportLines": [
+        "IC 594",
+        "IC306",
+        "RE301"
+      ]
     },
     {
       "id": "49075f55-f32a-4608-a4bb-b0141ee10f3f",
@@ -335,20 +555,32 @@
         8767,
         -2521
       ],
-      "weight": 0,
-      "dataSource": "railinfo:7:0"
+      "weight": 3,
+      "dataSource": "railinfo:7:0",
+      "transportLines": [
+        "RE301"
+      ]
     },
     {
       "id": "750b5a9f-350c-4242-86f1-911b5ecda360",
       "type": "transport-stop",
       "subtype": "public-rail",
-      "label": "Broad Green/Breda Grön",
+      "label": "Broad Green",
+      "altNames": [
+        "Breda Grön"
+      ],
       "coords": [
-        6365,
+        6470,
         -6701
       ],
-      "weight": 1,
-      "dataSource": "railinfo:263:0"
+      "weight": 10,
+      "dataSource": "railinfo:263:0",
+      "$label": "Broad Green/Breda Grön",
+      "transportLines": [
+        "R790",
+        "R799",
+        "RE793"
+      ]
     },
     {
       "id": "71327b3a-be28-43a8-8ac0-b9fc033e14a6",
@@ -359,8 +591,14 @@
         7912,
         -2044
       ],
-      "weight": 1,
-      "dataSource": "railinfo:157:0"
+      "weight": 13,
+      "dataSource": "railinfo:157:0",
+      "transportLines": [
+        "IC306",
+        "R302",
+        "RE301",
+        "W10"
+      ]
     },
     {
       "id": "2383f172-b736-4711-a943-7d1016666ac2",
@@ -368,11 +606,22 @@
       "subtype": "public-rail",
       "label": "Liverpool Lime Street",
       "coords": [
-        7516,
+        7583,
         -6652
       ],
-      "weight": 3,
-      "dataSource": "railinfo:262:0"
+      "weight": 31,
+      "dataSource": "railinfo:262:0",
+      "transportLines": [
+        "EIC703",
+        "HS70",
+        "IC 592",
+        "IC98",
+        "R790",
+        "R799",
+        "RE603",
+        "RE740",
+        "RE793"
+      ]
     },
     {
       "id": "182191bd-8a7c-4e57-82a7-a203990c97a4",
@@ -383,8 +632,11 @@
         6153,
         -6287
       ],
-      "weight": 0,
-      "dataSource": "railinfo:349:0"
+      "weight": 3,
+      "dataSource": "railinfo:349:0",
+      "transportLines": [
+        "R790"
+      ]
     },
     {
       "id": "63ca6412-a341-4bb9-ab66-99c107e9c873",
@@ -392,11 +644,14 @@
       "subtype": "public-rail",
       "label": "Ursus Oppidulum",
       "coords": [
-        4975,
+        5026,
         -6831
       ],
-      "weight": 0,
-      "dataSource": "railinfo:301:0"
+      "weight": 3,
+      "dataSource": "railinfo:301:0",
+      "transportLines": [
+        "R790"
+      ]
     },
     {
       "id": "ae70a1f2-64e3-4eac-af3b-9ab58d4db6d6",
@@ -407,8 +662,1342 @@
         4462,
         61
       ],
-      "weight": 2,
-      "dataSource": "railinfo:73:0"
+      "weight": 27,
+      "dataSource": "railinfo:73:0",
+      "transportLines": [
+        "HS13",
+        "HS600 V2",
+        "HS70",
+        "R28",
+        "R47",
+        "R709",
+        "RE710",
+        "SL701"
+      ]
+    },
+    {
+      "id": "eb00e8bf-a040-468b-93c3-1e115039624f",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Neusatz East",
+      "coords": [
+        4618,
+        -6809
+      ],
+      "weight": 17,
+      "dataSource": "railinfo:30:0",
+      "transportLines": [
+        "IC 592",
+        "R 575",
+        "RE13",
+        "RE740",
+        "RE793"
+      ]
+    },
+    {
+      "id": "62847624-9085-4109-925d-87588edafea0",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Lavender Valley North",
+      "coords": [
+        2273,
+        -106
+      ],
+      "weight": 17,
+      "dataSource": "railinfo:255:0",
+      "transportLines": [
+        "601 new routing",
+        "R10",
+        "R17",
+        "S4",
+        "S705"
+      ]
+    },
+    {
+      "id": "f7060b41-8a4a-4c6d-939e-ccb0e9f5fa33",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Lavender Valley Town",
+      "coords": [
+        2001,
+        121
+      ],
+      "weight": 20,
+      "dataSource": "railinfo:75:0",
+      "transportLines": [
+        "IR1",
+        "LVT",
+        "R42",
+        "RE20",
+        "S1",
+        "SL701"
+      ]
+    },
+    {
+      "id": "ad036e1e-ca38-4989-ba55-b85cd632bbfc",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Salzingen Nord",
+      "coords": [
+        1623,
+        2259
+      ],
+      "weight": 10,
+      "dataSource": "railinfo:148:0",
+      "transportLines": [
+        "IR1",
+        "R57",
+        "SL701"
+      ]
+    },
+    {
+      "id": "f5626c29-f20a-4c50-845c-f827a14606fb",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Bärlingen",
+      "coords": [
+        1631,
+        1580
+      ],
+      "weight": 6,
+      "dataSource": "railinfo:97:0",
+      "transportLines": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "id": "ee015427-4846-4b21-95cc-b107693b2aba",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Elmswalde Hbf",
+      "coords": [
+        4098,
+        3486
+      ],
+      "weight": 41,
+      "dataSource": "railinfo:114:0",
+      "transportLines": [
+        "HS13",
+        "HS600 V2",
+        "HS70",
+        "IC125",
+        "IC25",
+        "IC40",
+        "IR1",
+        "R32",
+        "R47",
+        "RE64",
+        "S2",
+        "SL701"
+      ]
+    },
+    {
+      "id": "7a3eb3cc-d574-417e-a8e7-fc88661c3654",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Forlorn Hollows",
+      "coords": [
+        6725,
+        5713
+      ],
+      "weight": 13,
+      "dataSource": "railinfo:57:0",
+      "transportLines": [
+        "IC125",
+        "IC25",
+        "R29",
+        "R33"
+      ]
+    },
+    {
+      "id": "caf62d9b-8f66-44a1-89a8-ffd074e5c851",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Grand Depot",
+      "coords": [
+        3232,
+        3602
+      ],
+      "weight": 3,
+      "dataSource": "railinfo:250:0",
+      "transportLines": [
+        "R47"
+      ]
+    },
+    {
+      "id": "cfdbcb89-297d-48f2-8a58-802a54d0c79d",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Luzernthal Interchange",
+      "coords": [
+        3348,
+        5782
+      ],
+      "weight": 17,
+      "dataSource": "railinfo:295:0",
+      "transportLines": [
+        "IC415",
+        "LLB RE 15",
+        "LLB RE 156",
+        "R32",
+        "R33"
+      ]
+    },
+    {
+      "id": "ca335917-2c24-4f65-8290-59b9d62dfd3e",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Ochtrup Hbf",
+      "coords": [
+        2363,
+        3741
+      ],
+      "weight": 34,
+      "dataSource": "railinfo:138:0",
+      "transportLines": [
+        "HS13",
+        "HS600",
+        "HS600 V2",
+        "HS70",
+        "IR1",
+        "R47",
+        "R51",
+        "R63",
+        "RE64",
+        "SL701"
+      ]
+    },
+    {
+      "id": "b8b9b6f0-44bd-44f9-b328-708fb5088338",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Lursin",
+      "coords": [
+        421,
+        -445
+      ],
+      "weight": 20,
+      "dataSource": "railinfo:154:0",
+      "transportLines": [
+        "C-Line (MRM)",
+        "IC40",
+        "M01",
+        "R42",
+        "RE44",
+        "S41"
+      ]
+    },
+    {
+      "id": "92b69c76-72d2-4ea6-be2b-b082188be452",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Novaburg Central",
+      "coords": [
+        967,
+        -103
+      ],
+      "weight": 6,
+      "dataSource": "railinfo:100:0",
+      "transportLines": [
+        "C-Line (MRM)",
+        "R42"
+      ]
+    },
+    {
+      "id": "05c9d330-97f6-404d-bc0d-3028d5ef3c09",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Sola Interchange",
+      "coords": [
+        1057,
+        697
+      ],
+      "weight": 13,
+      "dataSource": "railinfo:71:0",
+      "transportLines": [
+        "IC40",
+        "R24",
+        "R42",
+        "S2"
+      ]
+    },
+    {
+      "id": "1e02fe73-1127-434c-9e63-2c881412f67b",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Almenhofen",
+      "coords": [
+        -496,
+        -9384
+      ],
+      "weight": 3,
+      "dataSource": "railinfo:215:0",
+      "transportLines": [
+        "R 577"
+      ]
+    },
+    {
+      "id": "ca0b10c7-11e7-41f8-8eb2-972aa228af32",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Althausen",
+      "coords": [
+        -678,
+        -5572
+      ],
+      "weight": 10,
+      "dataSource": "railinfo:74:0",
+      "transportLines": [
+        "IR1",
+        "R 585",
+        "R 586"
+      ]
+    },
+    {
+      "id": "8196e713-f6fb-43ed-8492-6428f0980c8d",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Eisbergen Hbf",
+      "coords": [
+        1711,
+        -6356
+      ],
+      "weight": 31,
+      "dataSource": "railinfo:108:0",
+      "transportLines": [
+        "EIC703",
+        "HS70",
+        "IC 594",
+        "IC98",
+        "R 575",
+        "R93",
+        "RE 581",
+        "RE 582",
+        "RE13"
+      ]
+    },
+    {
+      "id": "de80af03-0c7d-4636-9e6e-51e11fd8157d",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Eisbergen Süd",
+      "coords": [
+        1583,
+        -5955
+      ],
+      "weight": 6,
+      "dataSource": "railinfo:274:0",
+      "transportLines": [
+        "R 575",
+        "R93"
+      ]
+    },
+    {
+      "id": "23b1920b-3351-44cd-91b0-20185016f7d8",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Feuerberg",
+      "coords": [
+        416,
+        -4003
+      ],
+      "weight": 6,
+      "dataSource": "railinfo:190:0",
+      "transportLines": [
+        "R 575",
+        "R 586"
+      ]
+    },
+    {
+      "id": "10ec5235-743f-481a-9fcd-2e356e009028",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Feuerdorf",
+      "coords": [
+        145,
+        -4664
+      ],
+      "weight": 3,
+      "dataSource": "railinfo:121:0",
+      "transportLines": [
+        "R 586"
+      ]
+    },
+    {
+      "id": "2c1f6988-e175-4204-8c87-1956b60e4b19",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "HLB Depot",
+      "coords": [
+        2628,
+        -7119
+      ],
+      "weight": 3,
+      "dataSource": "railinfo:306:0",
+      "transportLines": [
+        "R 576"
+      ]
+    },
+    {
+      "id": "3bacb70d-2eda-4795-9850-47464146bca1",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Hohenfeld",
+      "coords": [
+        -64,
+        -7279
+      ],
+      "weight": 13,
+      "dataSource": "railinfo:21:0",
+      "transportLines": [
+        "R 576",
+        "R159",
+        "RE 581",
+        "RE 582"
+      ]
+    },
+    {
+      "id": "621ae255-e554-4fcd-a7dd-fa7656e05e8a",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Hohenstein",
+      "coords": [
+        -1420,
+        -7152
+      ],
+      "weight": 20,
+      "dataSource": "railinfo:182:0",
+      "transportLines": [
+        "IR1",
+        "R 585",
+        "R 586",
+        "R 587",
+        "RE 581",
+        "RE 582"
+      ]
+    },
+    {
+      "id": "1ce0befb-7352-420f-8ac1-bbecec932464",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Nordende Airport",
+      "coords": [
+        -1283,
+        -8664
+      ],
+      "weight": 20,
+      "dataSource": "railinfo:180:0",
+      "transportLines": [
+        "HS21",
+        "HS300",
+        "IC 590",
+        "R 577",
+        "R96",
+        "R97"
+      ]
+    },
+    {
+      "id": "632491ad-7cff-4d08-bc5d-b98666d42b8a",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Nordende Hbf",
+      "coords": [
+        -830,
+        -7731
+      ],
+      "weight": 58,
+      "dataSource": "railinfo:142:0",
+      "transportLines": [
+        "HS 595",
+        "HS300",
+        "IC 590",
+        "IC 592",
+        "IC 594",
+        "ICN90",
+        "R 576",
+        "R 577",
+        "R 585",
+        "R 586",
+        "R 587",
+        "R 589",
+        "R159",
+        "R96",
+        "R97",
+        "RE 581",
+        "RE 582"
+      ]
+    },
+    {
+      "id": "01e2ec93-c359-4c16-9492-6d9958f526da",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Torcastle",
+      "coords": [
+        -1306,
+        -6185
+      ],
+      "weight": 6,
+      "dataSource": "railinfo:186:0",
+      "transportLines": [
+        "IR1",
+        "R 586"
+      ]
+    },
+    {
+      "id": "f416640c-9c5f-4695-a1af-c3632dc4218b",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Tyndrum",
+      "coords": [
+        -4,
+        -5306
+      ],
+      "weight": 17,
+      "dataSource": "railinfo:112:0",
+      "transportLines": [
+        "IR1",
+        "R 585",
+        "R 586",
+        "RE 581",
+        "RE 582"
+      ]
+    },
+    {
+      "id": "e48b7006-2b01-40d9-903a-97d632e8e44b",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Überbergen",
+      "coords": [
+        820,
+        -7044
+      ],
+      "weight": 13,
+      "dataSource": "railinfo:162:0",
+      "transportLines": [
+        "R 576",
+        "R159",
+        "RE 581",
+        "RE 582"
+      ]
+    },
+    {
+      "id": "090a3ab5-0b90-41f9-9faf-00037462fa45",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Unterbergen",
+      "coords": [
+        1436,
+        -7043
+      ],
+      "weight": 6,
+      "dataSource": "railinfo:123:0",
+      "transportLines": [
+        "R 576",
+        "R159"
+      ]
+    },
+    {
+      "id": "0dc3cbdf-bb7e-47d7-b3c9-ea2d93a4bb90",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Wiesental",
+      "coords": [
+        707,
+        -5302
+      ],
+      "weight": 34,
+      "dataSource": "railinfo:173:0",
+      "transportLines": [
+        "HS70",
+        "IC 590",
+        "IC 594",
+        "IC98",
+        "IR1",
+        "R 575",
+        "R 585",
+        "R93",
+        "RE 581",
+        "RE 582"
+      ]
+    },
+    {
+      "id": "462c057c-edce-4f31-b77f-b83e483ac82d",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Zollhaus",
+      "coords": [
+        2526,
+        -6766
+      ],
+      "weight": 6,
+      "dataSource": "railinfo:305:0",
+      "transportLines": [
+        "R 575",
+        "R159"
+      ]
+    }
+  ],
+  "transportLines": [
+    {
+      "line": "(G)",
+      "color": "#6cc24a",
+      "type": "metro"
+    },
+    {
+      "line": "50",
+      "color": "#378648",
+      "type": "bus"
+    },
+    {
+      "line": "601 new routing",
+      "color": "#000000",
+      "type": "train"
+    },
+    {
+      "line": "Bakerloo Line",
+      "color": "#af6010",
+      "type": "metro"
+    },
+    {
+      "line": "Bay Line",
+      "color": "#7ce3c1",
+      "type": "metro"
+    },
+    {
+      "line": "C-Line (MRM)",
+      "color": "#3f76f8",
+      "type": "metro"
+    },
+    {
+      "line": "Cherry Line",
+      "color": "#f3858d",
+      "type": "metro"
+    },
+    {
+      "line": "EIC703",
+      "color": "#000000",
+      "type": "train"
+    },
+    {
+      "line": "HS 595",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "HS13",
+      "color": "#f10c0c",
+      "type": "train"
+    },
+    {
+      "line": "HS20",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "HS21",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "HS300",
+      "color": "#cb0a3d",
+      "type": "train"
+    },
+    {
+      "line": "HS600",
+      "color": "#ffffff",
+      "type": "train"
+    },
+    {
+      "line": "HS600 V2",
+      "color": "#cf3331",
+      "type": "train"
+    },
+    {
+      "line": "HS70",
+      "color": "#004354",
+      "type": "train"
+    },
+    {
+      "line": "HS842",
+      "color": "#c318ac",
+      "type": "train"
+    },
+    {
+      "line": "IC 590",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "IC 592",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "IC 594",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "IC108",
+      "color": "#2c5f80",
+      "type": "train"
+    },
+    {
+      "line": "IC125",
+      "color": "#cb0a3d",
+      "type": "train"
+    },
+    {
+      "line": "IC170",
+      "color": "#d60000",
+      "type": "train"
+    },
+    {
+      "line": "IC23",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "IC25",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "IC304",
+      "color": "#00bf6e",
+      "type": "train"
+    },
+    {
+      "line": "IC306",
+      "color": "#cf3331",
+      "type": "train"
+    },
+    {
+      "line": "IC40",
+      "color": "#ba42ae",
+      "type": "train"
+    },
+    {
+      "line": "IC415",
+      "color": "#ff00ea",
+      "type": "train"
+    },
+    {
+      "line": "IC693",
+      "color": "#ff0000",
+      "type": "train"
+    },
+    {
+      "line": "IC98",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "ICN90",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "Inner Circle",
+      "color": "#a6a6a6",
+      "type": "metro"
+    },
+    {
+      "line": "IR1",
+      "color": "#004aad",
+      "type": "train"
+    },
+    {
+      "line": "IR704",
+      "color": "#de5839",
+      "type": "train"
+    },
+    {
+      "line": "Jade Line",
+      "color": "#39b826",
+      "type": "metro"
+    },
+    {
+      "line": "Kaze Shinkansen",
+      "color": "#007a90",
+      "type": "train"
+    },
+    {
+      "line": "Lavender Line 1",
+      "color": "#611f9a",
+      "type": "bus"
+    },
+    {
+      "line": "Linje 2: Gamla Stan Loopet",
+      "color": "#00bfff",
+      "type": "bus"
+    },
+    {
+      "line": "LLB RB 16",
+      "color": "#2489c7",
+      "type": "train"
+    },
+    {
+      "line": "LLB RE 15",
+      "color": "#2489c7",
+      "type": "train"
+    },
+    {
+      "line": "LLB RE 156",
+      "color": "#2489c7",
+      "type": "train"
+    },
+    {
+      "line": "LVT",
+      "color": "#be93e3",
+      "type": "tram"
+    },
+    {
+      "line": "M01",
+      "color": "#ee3c3c",
+      "type": "metro"
+    },
+    {
+      "line": "M11",
+      "color": "#ff0000",
+      "type": "tram"
+    },
+    {
+      "line": "M21",
+      "color": "#ff0000",
+      "type": "tram"
+    },
+    {
+      "line": "M22",
+      "color": "#ff0000",
+      "type": "tram"
+    },
+    {
+      "line": "NST 1",
+      "color": "#4a69ad",
+      "type": "tram"
+    },
+    {
+      "line": "Outer Circle",
+      "color": "#ff7300",
+      "type": "metro"
+    },
+    {
+      "line": "R 575",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "R 576",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "R 577",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "R 585",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "R 586",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "R 587",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "R 589",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "R10",
+      "color": "#29b442",
+      "type": "train"
+    },
+    {
+      "line": "R159",
+      "color": "#878787",
+      "type": "train"
+    },
+    {
+      "line": "R17",
+      "color": "#1a5fb4",
+      "type": "train"
+    },
+    {
+      "line": "R171",
+      "color": "#d60000",
+      "type": "train"
+    },
+    {
+      "line": "R172",
+      "color": "#d60000",
+      "type": "train"
+    },
+    {
+      "line": "R24",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R241",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R26",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R27",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R28",
+      "color": "#45bf9d",
+      "type": "train"
+    },
+    {
+      "line": "R29",
+      "color": "#c11a1a",
+      "type": "train"
+    },
+    {
+      "line": "R302",
+      "color": "#ffffff",
+      "type": "train"
+    },
+    {
+      "line": "R304",
+      "color": "#cb0a3d",
+      "type": "train"
+    },
+    {
+      "line": "R305",
+      "color": "#4c2f48",
+      "type": "train"
+    },
+    {
+      "line": "R308",
+      "color": "#be93e3",
+      "type": "train"
+    },
+    {
+      "line": "R32",
+      "color": "#ffa348",
+      "type": "train"
+    },
+    {
+      "line": "R33",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R401",
+      "color": "#59ff00",
+      "type": "train"
+    },
+    {
+      "line": "R402",
+      "color": "#ffd500",
+      "type": "train"
+    },
+    {
+      "line": "R403",
+      "color": "#ff7678",
+      "type": "train"
+    },
+    {
+      "line": "R409",
+      "color": "#eba75e",
+      "type": "train"
+    },
+    {
+      "line": "R411",
+      "color": "#37ff00",
+      "type": "train"
+    },
+    {
+      "line": "R413",
+      "color": "#ff0000",
+      "type": "train"
+    },
+    {
+      "line": "R414",
+      "color": "#004cff",
+      "type": "train"
+    },
+    {
+      "line": "R42",
+      "color": "#be93e3",
+      "type": "train"
+    },
+    {
+      "line": "R47",
+      "color": "#64ff00",
+      "type": "train"
+    },
+    {
+      "line": "R51",
+      "color": "#b1fa4c",
+      "type": "train"
+    },
+    {
+      "line": "R57",
+      "color": "#ff5d5d",
+      "type": "train"
+    },
+    {
+      "line": "R61",
+      "color": "#9fc5e8",
+      "type": "train"
+    },
+    {
+      "line": "R62",
+      "color": "#9fc5e8",
+      "type": "train"
+    },
+    {
+      "line": "R63",
+      "color": "#9fc5e8",
+      "type": "train"
+    },
+    {
+      "line": "R640",
+      "color": "#00bf6e",
+      "type": "train"
+    },
+    {
+      "line": "R641 (Loop)",
+      "color": "#00bf6e",
+      "type": "train"
+    },
+    {
+      "line": "R667",
+      "color": "#d78109",
+      "type": "train"
+    },
+    {
+      "line": "R709",
+      "color": "#131243",
+      "type": "train"
+    },
+    {
+      "line": "R790",
+      "color": "#004354",
+      "type": "train"
+    },
+    {
+      "line": "R799",
+      "color": "#004354",
+      "type": "train"
+    },
+    {
+      "line": "R91",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R92",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R93",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R94",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R95",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R96",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "R97",
+      "color": "#ff954a",
+      "type": "train"
+    },
+    {
+      "line": "RE 501",
+      "color": "#000000",
+      "type": "train"
+    },
+    {
+      "line": "RE 581",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "RE 582",
+      "color": "#c1121c",
+      "type": "train"
+    },
+    {
+      "line": "RE13",
+      "color": "#29b442",
+      "type": "train"
+    },
+    {
+      "line": "RE158 KANR",
+      "color": "#867474",
+      "type": "train"
+    },
+    {
+      "line": "RE158 SJ",
+      "color": "#867474",
+      "type": "train"
+    },
+    {
+      "line": "RE175",
+      "color": "#d60000",
+      "type": "train"
+    },
+    {
+      "line": "RE20",
+      "color": "#378648",
+      "type": "train"
+    },
+    {
+      "line": "RE22",
+      "color": "#3d72e5",
+      "type": "train"
+    },
+    {
+      "line": "RE301",
+      "color": "#ff0000",
+      "type": "train"
+    },
+    {
+      "line": "RE412",
+      "color": "#fff700",
+      "type": "train"
+    },
+    {
+      "line": "RE44",
+      "color": "#60c1c9",
+      "type": "train"
+    },
+    {
+      "line": "RE55",
+      "color": "#ff5d5d",
+      "type": "train"
+    },
+    {
+      "line": "RE601",
+      "color": "#00bf6e",
+      "type": "train"
+    },
+    {
+      "line": "RE603",
+      "color": "#00bf6e",
+      "type": "train"
+    },
+    {
+      "line": "RE64",
+      "color": "#ff5d5d",
+      "type": "train"
+    },
+    {
+      "line": "RE710",
+      "color": "#27192c",
+      "type": "train"
+    },
+    {
+      "line": "RE724",
+      "color": "#000000",
+      "type": "train"
+    },
+    {
+      "line": "RE740",
+      "color": "#63416f",
+      "type": "train"
+    },
+    {
+      "line": "RE793",
+      "color": "#004354",
+      "type": "train"
+    },
+    {
+      "line": "RE81",
+      "color": "#000000",
+      "type": "train"
+    },
+    {
+      "line": "Rose Line 1",
+      "color": "#d20000",
+      "type": "bus"
+    },
+    {
+      "line": "S1",
+      "color": "#ff5d5d",
+      "type": "train"
+    },
+    {
+      "line": "S170",
+      "color": "#008000",
+      "type": "train"
+    },
+    {
+      "line": "S173",
+      "color": "#008000",
+      "type": "train"
+    },
+    {
+      "line": "S2",
+      "color": "#ff5d5d",
+      "type": "train"
+    },
+    {
+      "line": "S218",
+      "color": "#3d72e5",
+      "type": "train"
+    },
+    {
+      "line": "S3",
+      "color": "#ff5d5d",
+      "type": "train"
+    },
+    {
+      "line": "S4",
+      "color": "#ff5d5d",
+      "type": "train"
+    },
+    {
+      "line": "S41",
+      "color": "#5fcb6c",
+      "type": "train"
+    },
+    {
+      "line": "S602",
+      "color": "#e87722",
+      "type": "train"
+    },
+    {
+      "line": "S605",
+      "color": "#e87722",
+      "type": "train"
+    },
+    {
+      "line": "S705",
+      "color": "#c33551",
+      "type": "train"
+    },
+    {
+      "line": "S80",
+      "color": "#000000",
+      "type": "train"
+    },
+    {
+      "line": "SL701",
+      "color": "#ffdd33",
+      "type": "train"
+    },
+    {
+      "line": "Spårväg City Linje 1",
+      "color": "#000000",
+      "type": "tram"
+    },
+    {
+      "line": "STM Heritage",
+      "color": "#e87722",
+      "type": "train"
+    },
+    {
+      "line": "SVB 1",
+      "color": "#a9455d",
+      "type": "tram"
+    },
+    {
+      "line": "SVB 2",
+      "color": "#a9455d",
+      "type": "tram"
+    },
+    {
+      "line": "SVB 3",
+      "color": "#a9455d",
+      "type": "tram"
+    },
+    {
+      "line": "T1",
+      "color": "#00eeff",
+      "type": "metro"
+    },
+    {
+      "line": "T2",
+      "color": "#00ff4c",
+      "type": "metro"
+    },
+    {
+      "line": "T3",
+      "color": "#ffd500",
+      "type": "metro"
+    },
+    {
+      "line": "T4",
+      "color": "#5699e1",
+      "type": "metro"
+    },
+    {
+      "line": "TFL 1",
+      "color": "#7bbf42",
+      "type": "tram"
+    },
+    {
+      "line": "TfT 2",
+      "color": "#e22400",
+      "type": "tram"
+    },
+    {
+      "line": "TfT 3",
+      "color": "#0061fe",
+      "type": "tram"
+    },
+    {
+      "line": "TfT 4",
+      "color": "#76bb40",
+      "type": "tram"
+    },
+    {
+      "line": "TfT 51",
+      "color": "#194c8f",
+      "type": "bus"
+    },
+    {
+      "line": "Tx1",
+      "color": "#0a418a",
+      "type": "metro"
+    },
+    {
+      "line": "W10",
+      "color": "#00843d",
+      "type": "bus"
+    },
+    {
+      "line": "WVT",
+      "color": "#212778",
+      "type": "tram"
     }
   ]
 }

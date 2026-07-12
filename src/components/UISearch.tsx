@@ -1,10 +1,13 @@
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useOnClickOutside } from "usehooks-ts";
 import { useMap } from "react-leaflet";
-import { search, useData, type Poi } from "../data";
+import { useUI } from "./UserInterface";
+import { getPoi, search, useData, type Poi } from "../data";
 import crs from "../util/crs";
+import stopMouseEventPropagation from "../util/stopMouseEventPropagation";
 
-export default function SearchSection() {
+export default function UISearch() {
+  const ui = useUI();
   const map = useMap();
   const data = useData();
   const containerRef = useRef<HTMLDivElement>(null);
@@ -13,23 +16,25 @@ export default function SearchSection() {
   const [query, setQuery] = useState<string>("");
   const results = useMemo(() => search(data, query), [data, query]);
 
-  const focusPoi = useCallback(
-    (poi: Poi) => {
-      inputRef.current?.blur();
-      map.flyTo(crs.xz(...poi.coords), 1);
-      setQuery(poi.label);
-      setFocus(false);
-    },
-    [map],
-  );
-
   useOnClickOutside(containerRef, () => {
     setFocus(false);
   });
 
+  const focusPoi = useCallback((poi: Poi) => {
+    inputRef.current?.blur();
+    setFocus(false);
+    map.flyTo(crs.xz(...poi.coords), 1);
+    ui.setFocusedPoi(poi.id);
+  }, [map, ui, inputRef.current]);
+
+  useEffect(() => {
+    const poi = ui.focusedPoi && getPoi(data, ui.focusedPoi);
+    if (poi) setQuery(poi.label);
+  }, [ui.focusedPoi]);
+
   return (
-    <div className="leaflet-top leaflet-left">
-      <div ref={containerRef} className="leaflet-control search">
+    <div className="leaflet-top leaflet-left search-container">
+      <div ref={containerRef} className="search" {...stopMouseEventPropagation}>
         <form
           className="search-form"
           onSubmit={(ev) => {

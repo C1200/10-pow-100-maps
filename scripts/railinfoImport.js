@@ -16,8 +16,8 @@ function subtype(riType) {
 const base = "https://railinfo.juliandev02.me";
 const file = path.join(import.meta.dirname, "../src/data/transport-stops.json");
 
-const res = await fetch(base + "/api/stations").then((r) => r.json());
-let output = { poi: [] };
+const res1 = await fetch(base + "/api/stations").then((r) => r.json());
+let output = { poi: [], transportLines: [] };
 let addedEntries = 0;
 
 try {
@@ -26,18 +26,23 @@ try {
   console.error("[warn] Couldn't read file\n", e);
 }
 
+const lines = new Set();
 let maxLines = 0;
-for (const station of res) {
+for (const station of res1) {
+  for (const line of station.lines) {
+    lines.add(line);
+  }
+
   maxLines = Math.max(station.lines.length, maxLines);
 }
 
-for (const station of res) {
+for (const station of res1) {
   const dsId = "railinfo:" + station.id + ":";
   const coordSet = station.description
-    .matchAll(/Coords: "(-?\d+) (-?\d+)"/g)
+    .matchAll(/Coords: "(-?\d+)(?:\s+|\s*,\s*)(-?\d+)"/g)
     .toArray();
 
-  const weight = Math.floor((station.lines.length / maxLines) * 10);
+  const weight = Math.floor((station.lines.length / maxLines) * 100);
 
   const existing = output.poi.filter(
     (s) => s.dataSource && s.dataSource.startsWith(dsId),
@@ -46,6 +51,7 @@ for (const station of res) {
     let i = 0;
     for (const ex of existing) {
       ex.weight = weight;
+      ex.transportLines = station.lines;
 
       if (ex.subtype !== subtype(station.type)) {
         ex.$subtype = subtype(station.type);
@@ -82,11 +88,28 @@ for (const station of res) {
       label: station.name,
       coords: [parseInt(coords[1]), parseInt(coords[2])],
       weight: weight,
+      transportLines: station.lines,
 
       dataSource: dsId + i++,
     });
     addedEntries++;
   }
+}
+
+const res2 = await fetch(base + "/api/lines").then((r) => r.json());
+
+output.transportLines = [];
+for (const line of res2) {
+  if (!lines.has(line.name)) continue;
+
+  let type = line.type;
+  if (type === "public" || type === "private") type = "train";
+
+  output.transportLines.push({
+    line: line.name,
+    color: line.color,
+    type: type,
+  });
 }
 
 await fs.writeFile(file, JSON.stringify(output, null, 2));
