@@ -15,6 +15,14 @@
       "label": "Waterville International Airport (WTV)",
       "coords": [8853, -56],
       "rweight": 59
+    },
+    {
+      "id": "",
+      "type": "pinlet",
+      "subtype": "airport",
+      "label": "Kelton-Ashford Helipad",
+      "coords": [9720, -4745],
+      "rweight": 2
     }
   ]
 }

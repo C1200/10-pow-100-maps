@@ -42,7 +42,7 @@ for (const station of res1) {
     .matchAll(/Coords: "(-?\d+)(?:\s+|\s*,\s*)(-?\d+)"/g)
     .toArray();
 
-  const weight = Math.floor((station.lines.length / maxLines) * 100);
+  const weight = Math.floor((station.lines.length / maxLines) * 50);
 
   const existing = output.poi.filter(
     (s) => s.dataSource && s.dataSource.startsWith(dsId),

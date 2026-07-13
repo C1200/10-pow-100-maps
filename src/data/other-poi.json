@@ -56,6 +56,70 @@
       "label": "Althausen Bridge",
       "coords": [-1147, -5572],
       "rweight": 4
+    },
+    {
+      "id": "937380d0-778e-4426-beb1-17d16ea38125",
+      "type": "pinlet",
+      "subtype": "hotel",
+      "label": "Harisson Red Liverpool",
+      "coords": [7600, -6611],
+      "rweight": 2
+    },
+    {
+      "id": "f3ee2a39-a5ce-46de-806a-ee2f1d19a6a6",
+      "type": "pinlet",
+      "subtype": "fuel",
+      "label": "MP",
+      "coords": [4353, -6039],
+      "address": {
+        "street": "A1 Northbound",
+        "town": "Walkerham"
+      },
+      "rweight": 93
+    },
+    {
+      "id": "be6c73a7-ba42-4c12-8d7f-850498575b99",
+      "type": "pinlet",
+      "subtype": "fuel",
+      "label": "MP",
+      "coords": [2283, -2033],
+      "address": {
+        "town": "Yorker",
+        "city": "New Glasgow"
+      },
+      "rweight": 93
+    },
+    {
+      "id": "1eae3ea5-aa2a-4d31-8342-861cd13d5c15",
+      "type": "pinlet",
+      "subtype": "other",
+      "label": "Danube Tower",
+      "coords": [-1195, -2040],
+      "rweight": 10
+    },
+    {
+      "id": "0d11f79e-4c67-4df8-ba44-7c2598aa576a",
+      "type": "pinlet",
+      "subtype": "other",
+      "label": "Danube Coffee™ Plantation",
+      "coords": [-2362, -3284],
+      "rweight": 4
+    },
+    {
+      "id": "090651a5-7b14-4001-b120-82970449d930",
+      "type": "pinlet",
+      "subtype": "fuel",
+      "label": "Tesco Petrol Station",
+      "coords": [2009, -689],
+      "rweight": 4
+    },
+    {
+      "id": "0c975a0f-2792-43ab-a46b-1c26bfe99048",
+      "type": "pinlet",
+      "subtype": "other",
+      "label": "Dasalong Bridge",
+      "coords": [10665, -8475],
+      "rweight": 17
     }
   ]
 }

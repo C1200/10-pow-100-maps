@@ -1,24 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
-import { useUI } from "./UserInterface";
-import { getPoi, useData, type Poi, type TransportLine } from "../data";
+import { getPoi, getPoiTypeInfo, useData, type Poi, type TransportLine } from "../data";
 import stopMouseEventPropagation from "../util/stopMouseEventPropagation";
-
-function getTypeString(options: { type: string; subtype: string }) {
-  if (options.type === "transport-stop") {
-    return "Transport Stop";
-  }
-
-  if (options.type === "pinlet") {
-    switch (options.subtype) {
-      case "airport":
-        return "Airport";
-      case "church-christian":
-        return "Church";
-      case "museum":
-        return "Museum";
-    }
-  }
-}
+import { useUI } from "../util/useUI";
 
 function TransportSection(props: {
   icon: string;
@@ -80,21 +63,24 @@ export default function UIPoiInfo() {
   }, [data, poi]);
 
   useEffect(() => {
+    if (ui.focusedPoi) {
+      document.body.classList.add("poi-info-show");
+    } else {
+      document.body.classList.remove("poi-info-show");
+    }
+
     const poi = ui.focusedPoi && getPoi(data, ui.focusedPoi);
     if (poi) setPoi(poi);
   }, [data, ui.focusedPoi]);
 
   if (!poi) return null;
 
-  const type = getTypeString(poi);
+  const type = getPoiTypeInfo(poi).label;
 
   return (
     <div className="leaflet-top leaflet-bottom leaflet-left poi-info-container">
       <div className="sticky-shadow" />
-      <div
-        className={"poi-info" + (ui.focusedPoi ? " poi-info-show" : "")}
-        {...stopMouseEventPropagation}
-      >
+      <div className="poi-info" {...stopMouseEventPropagation}>
         <div className="showcase-container"></div>
 
         <section className="info-section">

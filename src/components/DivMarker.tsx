@@ -9,7 +9,10 @@ export interface DivMarkerProps {
   size?: L.PointExpression;
   anchor?: L.PointExpression;
   children?: ReactNode;
+  onAdd?: L.LeafletEventHandlerFn;
+  onRemove?: L.LeafletEventHandlerFn;
   onClick?: L.LeafletMouseEventHandlerFn;
+  data?: any;
 }
 
 export default function DivMarker(props: DivMarkerProps) {
@@ -25,8 +28,12 @@ export default function DivMarker(props: DivMarkerProps) {
         html: container,
       })}
       eventHandlers={{
+        add: props.onAdd,
+        remove: props.onRemove,
         click: props.onClick,
       }}
+      // @ts-ignore
+      data={props.data}
     >
       {createPortal(props.children, container)}
     </Marker>

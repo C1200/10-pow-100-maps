@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 import { useMapEvents } from "react-leaflet";
 import { useCopyToClipboard, useOnClickOutside } from "usehooks-ts";
-import { useUI } from "./UserInterface";
 import stopMouseEventPropagation from "../util/stopMouseEventPropagation";
+import { useUI } from "../util/useUI";
 
 interface MenuContext {
   mouse: [number, number];

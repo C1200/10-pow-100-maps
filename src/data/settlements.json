@@ -55,6 +55,14 @@
       "label": "Torcastle",
       "coords": [-1280, -6206],
       "rweight": 262
+    },
+    {
+      "id": "bf096337-de7d-4565-89d9-2d033c76e629",
+      "type": "settlement",
+      "subtype": "city",
+      "label": "Silverfall",
+      "coords": [-700, -1700],
+      "rweight": 1958
     }
   ]
 }

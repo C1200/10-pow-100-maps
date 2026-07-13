@@ -9,12 +9,15 @@
         1400,
         -2000
       ],
+      "address": {
+        "town": "Candenset"
+      },
       "dataSource": "railinfo:233:0",
-      "weight": 6,
       "transportLines": [
         "S218",
         "S705"
-      ]
+      ],
+      "weight": 3
     },
     {
       "id": "070b374a-db8c-4c30-a043-cd6a19fdf3f6",
@@ -25,8 +28,10 @@
         4440,
         -2700
       ],
+      "address": {
+        "town": "Crewe"
+      },
       "dataSource": "railinfo:249:0",
-      "weight": 41,
       "transportLines": [
         "601 new routing",
         "HS600 V2",
@@ -40,7 +45,8 @@
         "RE724",
         "RE793",
         "S605"
-      ]
+      ],
+      "weight": 20
     },
     {
       "id": "2a210ac9-f2f3-4472-a05d-938765d477f2",
@@ -51,11 +57,14 @@
         8450,
         1600
       ],
+      "address": {
+        "town": "Devesas"
+      },
       "dataSource": "railinfo:293:0",
-      "weight": 3,
       "transportLines": [
         "R308"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "be1357ce-4f51-4b1d-a54a-4089935f5dc1",
@@ -66,8 +75,10 @@
         9600,
         -4700
       ],
+      "address": {
+        "town": "Kelton"
+      },
       "dataSource": "railinfo:309:0",
-      "weight": 20,
       "$label": "Kelton-Ashford ",
       "transportLines": [
         "HS600 V2",
@@ -76,7 +87,8 @@
         "RE158 KANR",
         "RE81",
         "S80"
-      ]
+      ],
+      "weight": 10
     },
     {
       "id": "75cccba2-ba3e-4fc8-b02b-3de587308b7e",
@@ -87,12 +99,15 @@
         2925,
         -3400
       ],
+      "address": {
+        "town": "Lipno"
+      },
       "dataSource": "railinfo:368:0",
-      "weight": 6,
       "transportLines": [
         "R640",
         "R641 (Loop)"
-      ]
+      ],
+      "weight": 3
     },
     {
       "id": "f659bb14-56d1-464e-82e8-824dfb7ff246",
@@ -103,11 +118,14 @@
         4500,
         -1800
       ],
+      "address": {
+        "town": "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
+      },
       "dataSource": "railinfo:336:0",
-      "weight": 3,
       "transportLines": [
         "R409"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "207392cd-1fa1-44b8-9b90-2a540adaf30c",
@@ -118,8 +136,10 @@
         5900,
         -2700
       ],
+      "address": {
+        "town": "London"
+      },
       "dataSource": "railinfo:248:0",
-      "weight": 37,
       "transportLines": [
         "Bakerloo Line",
         "IC 594",
@@ -132,7 +152,8 @@
         "S602",
         "S605",
         "TFL 1"
-      ]
+      ],
+      "weight": 18
     },
     {
       "id": "76e3d132-90d2-4d45-a425-95224ebd4915",
@@ -143,9 +164,12 @@
         12000,
         -8000
       ],
+      "address": {
+        "town": "London"
+      },
       "dataSource": "railinfo:402:0",
-      "weight": 0,
-      "transportLines": []
+      "transportLines": [],
+      "weight": 0
     },
     {
       "id": "920d73a9-4085-4d12-92e7-0826deb6b1fa",
@@ -156,8 +180,10 @@
         3300,
         -2100
       ],
+      "address": {
+        "town": "New Glasgow"
+      },
       "dataSource": "railinfo:231:0",
-      "weight": 34,
       "transportLines": [
         "601 new routing",
         "IC 594",
@@ -169,7 +195,8 @@
         "S602",
         "TfT 2",
         "TfT 3"
-      ]
+      ],
+      "weight": 17
     },
     {
       "id": "09cbba44-d881-466a-b7b3-ad20a599cf85",
@@ -180,8 +207,10 @@
         3700,
         -3500
       ],
+      "address": {
+        "town": "Mouldsworth"
+      },
       "dataSource": "railinfo:304:0",
-      "weight": 24,
       "transportLines": [
         "IC304",
         "R640",
@@ -190,7 +219,8 @@
         "RE158 SJ",
         "RE740",
         "RE793"
-      ]
+      ],
+      "weight": 12
     },
     {
       "id": "72540d8b-0dbc-4c6a-a3be-ea67e2cd2120",
@@ -201,11 +231,14 @@
         11700,
         -7600
       ],
+      "address": {
+        "town": "Newlands"
+      },
       "dataSource": "railinfo:401:0",
-      "weight": 3,
       "transportLines": [
         "RE81"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "5a455da9-3bae-41e8-a3ec-1d26ead9b8df",
@@ -216,8 +249,10 @@
         1700,
         -1000
       ],
+      "address": {
+        "town": "Riverside"
+      },
       "dataSource": "railinfo:4:0",
-      "weight": 24,
       "transportLines": [
         "IR704",
         "R24",
@@ -226,7 +261,8 @@
         "R709",
         "RE601",
         "SL701"
-      ]
+      ],
+      "weight": 12
     },
     {
       "id": "60c942ef-8dd1-44fb-98c5-b5697add9b26",
@@ -237,11 +273,14 @@
         4900,
         -1350
       ],
+      "address": {
+        "town": "Royère-Ville"
+      },
       "dataSource": "railinfo:360:0",
-      "weight": 3,
       "transportLines": [
         "R409"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "cf074a4b-ba54-4027-9d1c-a18e2639b292",
@@ -252,13 +291,16 @@
         8500,
         1400
       ],
+      "address": {
+        "town": "São Bento"
+      },
       "dataSource": "railinfo:294:0",
-      "weight": 10,
       "transportLines": [
         "R29",
         "R308",
         "R667"
-      ]
+      ],
+      "weight": 5
     },
     {
       "id": "22395a9d-eb56-4731-8154-24f9ccf4e2e9",
@@ -269,11 +311,14 @@
         7300,
         -3100
       ],
+      "address": {
+        "town": "Sawbridgeworth"
+      },
       "dataSource": "railinfo:413:0",
-      "weight": 3,
       "transportLines": [
         "IC304"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "566ecf1e-cce5-4b76-958d-f2bc083069f0",
@@ -284,8 +329,10 @@
         2250,
         -1000
       ],
+      "address": {
+        "town": "Spawn"
+      },
       "dataSource": "railinfo:83:0",
-      "weight": 100,
       "transportLines": [
         "601 new routing",
         "HS13",
@@ -316,7 +363,8 @@
         "S705",
         "SL701",
         "TfT 2"
-      ]
+      ],
+      "weight": 50
     },
     {
       "id": "e8f7445c-b8c3-43e2-a866-8b6398e1fd7e",
@@ -327,11 +375,14 @@
         5675,
         -200
       ],
+      "address": {
+        "town": "TNT City"
+      },
       "dataSource": "railinfo:361:0",
-      "weight": 3,
       "transportLines": [
         "R403"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "1d92b2e8-183e-4f09-beb5-d0ff371eb8f8",
@@ -342,12 +393,15 @@
         6225,
         150
       ],
+      "address": {
+        "town": "TNT City"
+      },
       "dataSource": "railinfo:357:0",
-      "weight": 6,
       "transportLines": [
         "R402",
         "R409"
-      ]
+      ],
+      "weight": 3
     },
     {
       "id": "3ab96454-9e67-458e-b41f-e6df269c74aa",
@@ -358,8 +412,10 @@
         2400,
         -2075
       ],
+      "address": {
+        "town": "New Glasgow"
+      },
       "dataSource": "railinfo:8:0",
-      "weight": 72,
       "transportLines": [
         "601 new routing",
         "EIC703",
@@ -382,7 +438,8 @@
         "RE44",
         "S218",
         "S602"
-      ]
+      ],
+      "weight": 36
     },
     {
       "id": "6868503b-d3e6-46c8-9594-f7f0f1729bcc",
@@ -393,14 +450,17 @@
         8500,
         -700
       ],
+      "address": {
+        "town": "Waterville"
+      },
       "dataSource": "railinfo:102:0",
-      "weight": 13,
       "transportLines": [
         "R304",
         "R305",
         "R308",
         "W10"
-      ]
+      ],
+      "weight": 6
     },
     {
       "id": "87709c56-b0b7-4520-9c19-0429b21a7ac9",
@@ -412,10 +472,10 @@
         -100
       ],
       "dataSource": "railinfo:412:0",
-      "weight": 3,
       "transportLines": [
         "R308"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "16709409-ae42-4db8-b101-dd382b17315f",
@@ -426,8 +486,10 @@
         7300,
         -700
       ],
+      "address": {
+        "town": "Waterville"
+      },
       "dataSource": "railinfo:50:0",
-      "weight": 31,
       "$label": "Waterville Central (Intl.)",
       "transportLines": [
         "HS21",
@@ -439,7 +501,8 @@
         "R305",
         "R308",
         "RE301"
-      ]
+      ],
+      "weight": 15
     },
     {
       "id": "a42d589b-ab65-4eb4-9dad-c9859a820601",
@@ -450,11 +513,14 @@
         4100,
         -2400
       ],
+      "address": {
+        "town": "Crewe"
+      },
       "dataSource": "railinfo:258:0",
-      "weight": 3,
       "transportLines": [
         "S602"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "71fcb706-1d61-421a-9235-7dbb15d94a61",
@@ -465,8 +531,10 @@
         2600,
         -3100
       ],
+      "address": {
+        "town": "Wawer"
+      },
       "dataSource": "railinfo:16:0",
-      "weight": 41,
       "transportLines": [
         "50",
         "IC108",
@@ -480,7 +548,8 @@
         "R640",
         "RE13",
         "RE20"
-      ]
+      ],
+      "weight": 20
     },
     {
       "id": "29a8e833-206e-4e72-896d-e6faab77c8c5",
@@ -491,11 +560,14 @@
         13000,
         -4600
       ],
+      "address": {
+        "town": "Newlands"
+      },
       "dataSource": "railinfo:400:0",
-      "weight": 3,
       "transportLines": [
         "RE81"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "4c3f1bc9-1cbe-46c0-9d91-3b82c32e9f3b",
@@ -506,7 +578,9 @@
         2070,
         2396
       ],
-      "weight": 62,
+      "address": {
+        "town": "Salzingen"
+      },
       "dataSource": "railinfo:67:0",
       "transportLines": [
         "HS 595",
@@ -527,7 +601,8 @@
         "S2",
         "S3",
         "S4"
-      ]
+      ],
+      "weight": 31
     },
     {
       "id": "815125b6-f43a-4f64-8028-6b6e464d4b9e",
@@ -538,13 +613,16 @@
         9668,
         -2924
       ],
-      "weight": 10,
+      "address": {
+        "town": "Dark Forest"
+      },
       "dataSource": "railinfo:169:0",
       "transportLines": [
         "IC 594",
         "IC306",
         "RE301"
-      ]
+      ],
+      "weight": 5
     },
     {
       "id": "49075f55-f32a-4608-a4bb-b0141ee10f3f",
@@ -555,11 +633,14 @@
         8767,
         -2521
       ],
-      "weight": 3,
+      "address": {
+        "town": "Dark Forest"
+      },
       "dataSource": "railinfo:7:0",
       "transportLines": [
         "RE301"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "750b5a9f-350c-4242-86f1-911b5ecda360",
@@ -573,14 +654,17 @@
         6470,
         -6701
       ],
-      "weight": 10,
+      "address": {
+        "town": "Prescot"
+      },
       "dataSource": "railinfo:263:0",
       "$label": "Broad Green/Breda Grön",
       "transportLines": [
         "R790",
         "R799",
         "RE793"
-      ]
+      ],
+      "weight": 5
     },
     {
       "id": "71327b3a-be28-43a8-8ac0-b9fc033e14a6",
@@ -591,14 +675,17 @@
         7912,
         -2044
       ],
-      "weight": 13,
+      "address": {
+        "town": "Dark Forest"
+      },
       "dataSource": "railinfo:157:0",
       "transportLines": [
         "IC306",
         "R302",
         "RE301",
         "W10"
-      ]
+      ],
+      "weight": 6
     },
     {
       "id": "2383f172-b736-4711-a943-7d1016666ac2",
@@ -609,7 +696,9 @@
         7583,
         -6652
       ],
-      "weight": 31,
+      "address": {
+        "town": "Liverpool"
+      },
       "dataSource": "railinfo:262:0",
       "transportLines": [
         "EIC703",
@@ -621,7 +710,8 @@
         "RE603",
         "RE740",
         "RE793"
-      ]
+      ],
+      "weight": 15
     },
     {
       "id": "182191bd-8a7c-4e57-82a7-a203990c97a4",
@@ -632,11 +722,14 @@
         6153,
         -6287
       ],
-      "weight": 3,
+      "address": {
+        "town": "Prescot"
+      },
       "dataSource": "railinfo:349:0",
       "transportLines": [
         "R790"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "63ca6412-a341-4bb9-ab66-99c107e9c873",
@@ -647,11 +740,14 @@
         5026,
         -6831
       ],
-      "weight": 3,
+      "address": {
+        "town": "Neusatz"
+      },
       "dataSource": "railinfo:301:0",
       "transportLines": [
         "R790"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "ae70a1f2-64e3-4eac-af3b-9ab58d4db6d6",
@@ -662,7 +758,9 @@
         4462,
         61
       ],
-      "weight": 27,
+      "address": {
+        "town": "Alpinetor"
+      },
       "dataSource": "railinfo:73:0",
       "transportLines": [
         "HS13",
@@ -673,7 +771,8 @@
         "R709",
         "RE710",
         "SL701"
-      ]
+      ],
+      "weight": 13
     },
     {
       "id": "eb00e8bf-a040-468b-93c3-1e115039624f",
@@ -684,7 +783,9 @@
         4618,
         -6809
       ],
-      "weight": 17,
+      "address": {
+        "town": "Neusatz"
+      },
       "dataSource": "railinfo:30:0",
       "transportLines": [
         "IC 592",
@@ -692,7 +793,8 @@
         "RE13",
         "RE740",
         "RE793"
-      ]
+      ],
+      "weight": 8
     },
     {
       "id": "62847624-9085-4109-925d-87588edafea0",
@@ -703,7 +805,9 @@
         2273,
         -106
       ],
-      "weight": 17,
+      "address": {
+        "town": "Spawn"
+      },
       "dataSource": "railinfo:255:0",
       "transportLines": [
         "601 new routing",
@@ -711,7 +815,8 @@
         "R17",
         "S4",
         "S705"
-      ]
+      ],
+      "weight": 8
     },
     {
       "id": "f7060b41-8a4a-4c6d-939e-ccb0e9f5fa33",
@@ -722,7 +827,9 @@
         2001,
         121
       ],
-      "weight": 20,
+      "address": {
+        "town": "Lavender Valley"
+      },
       "dataSource": "railinfo:75:0",
       "transportLines": [
         "IR1",
@@ -731,7 +838,8 @@
         "RE20",
         "S1",
         "SL701"
-      ]
+      ],
+      "weight": 10
     },
     {
       "id": "ad036e1e-ca38-4989-ba55-b85cd632bbfc",
@@ -742,13 +850,16 @@
         1623,
         2259
       ],
-      "weight": 10,
+      "address": {
+        "town": "Salzingen"
+      },
       "dataSource": "railinfo:148:0",
       "transportLines": [
         "IR1",
         "R57",
         "SL701"
-      ]
+      ],
+      "weight": 5
     },
     {
       "id": "f5626c29-f20a-4c50-845c-f827a14606fb",
@@ -759,12 +870,15 @@
         1631,
         1580
       ],
-      "weight": 6,
+      "address": {
+        "town": "Salzingen"
+      },
       "dataSource": "railinfo:97:0",
       "transportLines": [
         "S1",
         "S2"
-      ]
+      ],
+      "weight": 3
     },
     {
       "id": "ee015427-4846-4b21-95cc-b107693b2aba",
@@ -775,7 +889,9 @@
         4098,
         3486
       ],
-      "weight": 41,
+      "address": {
+        "town": "Elmswalde"
+      },
       "dataSource": "railinfo:114:0",
       "transportLines": [
         "HS13",
@@ -790,7 +906,8 @@
         "RE64",
         "S2",
         "SL701"
-      ]
+      ],
+      "weight": 20
     },
     {
       "id": "7a3eb3cc-d574-417e-a8e7-fc88661c3654",
@@ -801,14 +918,17 @@
         6725,
         5713
       ],
-      "weight": 13,
+      "address": {
+        "town": "Forlorn Hollows"
+      },
       "dataSource": "railinfo:57:0",
       "transportLines": [
         "IC125",
         "IC25",
         "R29",
         "R33"
-      ]
+      ],
+      "weight": 6
     },
     {
       "id": "caf62d9b-8f66-44a1-89a8-ffd074e5c851",
@@ -819,11 +939,14 @@
         3232,
         3602
       ],
-      "weight": 3,
+      "address": {
+        "town": "Ochtrup"
+      },
       "dataSource": "railinfo:250:0",
       "transportLines": [
         "R47"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "cfdbcb89-297d-48f2-8a58-802a54d0c79d",
@@ -834,7 +957,9 @@
         3348,
         5782
       ],
-      "weight": 17,
+      "address": {
+        "town": "Luzernthal"
+      },
       "dataSource": "railinfo:295:0",
       "transportLines": [
         "IC415",
@@ -842,7 +967,8 @@
         "LLB RE 156",
         "R32",
         "R33"
-      ]
+      ],
+      "weight": 8
     },
     {
       "id": "ca335917-2c24-4f65-8290-59b9d62dfd3e",
@@ -853,7 +979,9 @@
         2363,
         3741
       ],
-      "weight": 34,
+      "address": {
+        "town": "Ochtrup"
+      },
       "dataSource": "railinfo:138:0",
       "transportLines": [
         "HS13",
@@ -866,7 +994,8 @@
         "R63",
         "RE64",
         "SL701"
-      ]
+      ],
+      "weight": 17
     },
     {
       "id": "b8b9b6f0-44bd-44f9-b328-708fb5088338",
@@ -877,7 +1006,9 @@
         421,
         -445
       ],
-      "weight": 20,
+      "address": {
+        "town": "Lursin"
+      },
       "dataSource": "railinfo:154:0",
       "transportLines": [
         "C-Line (MRM)",
@@ -886,7 +1017,8 @@
         "R42",
         "RE44",
         "S41"
-      ]
+      ],
+      "weight": 10
     },
     {
       "id": "92b69c76-72d2-4ea6-be2b-b082188be452",
@@ -897,12 +1029,15 @@
         967,
         -103
       ],
-      "weight": 6,
+      "address": {
+        "town": "Novaburg"
+      },
       "dataSource": "railinfo:100:0",
       "transportLines": [
         "C-Line (MRM)",
         "R42"
-      ]
+      ],
+      "weight": 3
     },
     {
       "id": "05c9d330-97f6-404d-bc0d-3028d5ef3c09",
@@ -913,14 +1048,17 @@
         1057,
         697
       ],
-      "weight": 13,
+      "address": {
+        "town": "Novaburg"
+      },
       "dataSource": "railinfo:71:0",
       "transportLines": [
         "IC40",
         "R24",
         "R42",
         "S2"
-      ]
+      ],
+      "weight": 6
     },
     {
       "id": "1e02fe73-1127-434c-9e63-2c881412f67b",
@@ -931,11 +1069,14 @@
         -496,
         -9384
       ],
-      "weight": 3,
+      "address": {
+        "town": "Almenhofen"
+      },
       "dataSource": "railinfo:215:0",
       "transportLines": [
         "R 577"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "ca0b10c7-11e7-41f8-8eb2-972aa228af32",
@@ -946,13 +1087,16 @@
         -678,
         -5572
       ],
-      "weight": 10,
+      "address": {
+        "town": "Althausen"
+      },
       "dataSource": "railinfo:74:0",
       "transportLines": [
         "IR1",
         "R 585",
         "R 586"
-      ]
+      ],
+      "weight": 5
     },
     {
       "id": "8196e713-f6fb-43ed-8492-6428f0980c8d",
@@ -963,7 +1107,9 @@
         1711,
         -6356
       ],
-      "weight": 31,
+      "address": {
+        "town": "Eisbergen"
+      },
       "dataSource": "railinfo:108:0",
       "transportLines": [
         "EIC703",
@@ -975,7 +1121,8 @@
         "RE 581",
         "RE 582",
         "RE13"
-      ]
+      ],
+      "weight": 15
     },
     {
       "id": "de80af03-0c7d-4636-9e6e-51e11fd8157d",
@@ -986,12 +1133,15 @@
         1583,
         -5955
       ],
-      "weight": 6,
+      "address": {
+        "town": "Eisbergen"
+      },
       "dataSource": "railinfo:274:0",
       "transportLines": [
         "R 575",
         "R93"
-      ]
+      ],
+      "weight": 3
     },
     {
       "id": "23b1920b-3351-44cd-91b0-20185016f7d8",
@@ -1002,12 +1152,15 @@
         416,
         -4003
       ],
-      "weight": 6,
+      "address": {
+        "town": "Feuerberg"
+      },
       "dataSource": "railinfo:190:0",
       "transportLines": [
         "R 575",
         "R 586"
-      ]
+      ],
+      "weight": 3
     },
     {
       "id": "10ec5235-743f-481a-9fcd-2e356e009028",
@@ -1018,11 +1171,14 @@
         145,
         -4664
       ],
-      "weight": 3,
+      "address": {
+        "town": "Feuerdorf"
+      },
       "dataSource": "railinfo:121:0",
       "transportLines": [
         "R 586"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "2c1f6988-e175-4204-8c87-1956b60e4b19",
@@ -1033,11 +1189,14 @@
         2628,
         -7119
       ],
-      "weight": 3,
+      "address": {
+        "town": "Zollhaus"
+      },
       "dataSource": "railinfo:306:0",
       "transportLines": [
         "R 576"
-      ]
+      ],
+      "weight": 1
     },
     {
       "id": "3bacb70d-2eda-4795-9850-47464146bca1",
@@ -1048,14 +1207,17 @@
         -64,
         -7279
       ],
-      "weight": 13,
+      "address": {
+        "town": "Hohenfeld"
+      },
       "dataSource": "railinfo:21:0",
       "transportLines": [
         "R 576",
         "R159",
         "RE 581",
         "RE 582"
-      ]
+      ],
+      "weight": 6
     },
     {
       "id": "621ae255-e554-4fcd-a7dd-fa7656e05e8a",
@@ -1066,7 +1228,9 @@
         -1420,
         -7152
       ],
-      "weight": 20,
+      "address": {
+        "town": "Hohenstein"
+      },
       "dataSource": "railinfo:182:0",
       "transportLines": [
         "IR1",
@@ -1075,7 +1239,8 @@
         "R 587",
         "RE 581",
         "RE 582"
-      ]
+      ],
+      "weight": 10
     },
     {
       "id": "1ce0befb-7352-420f-8ac1-bbecec932464",
@@ -1086,7 +1251,9 @@
         -1283,
         -8664
       ],
-      "weight": 20,
+      "address": {
+        "town": "Nordende"
+      },
       "dataSource": "railinfo:180:0",
       "transportLines": [
         "HS21",
@@ -1095,7 +1262,8 @@
         "R 577",
         "R96",
         "R97"
-      ]
+      ],
+      "weight": 10
     },
     {
       "id": "632491ad-7cff-4d08-bc5d-b98666d42b8a",
@@ -1106,7 +1274,9 @@
         -830,
         -7731
       ],
-      "weight": 58,
+      "address": {
+        "town": "Nordende"
+      },
       "dataSource": "railinfo:142:0",
       "transportLines": [
         "HS 595",
@@ -1126,7 +1296,8 @@
         "R97",
         "RE 581",
         "RE 582"
-      ]
+      ],
+      "weight": 29
     },
     {
       "id": "01e2ec93-c359-4c16-9492-6d9958f526da",
@@ -1137,12 +1308,15 @@
         -1306,
         -6185
       ],
-      "weight": 6,
+      "address": {
+        "town": "Torcastle"
+      },
       "dataSource": "railinfo:186:0",
       "transportLines": [
         "IR1",
         "R 586"
-      ]
+      ],
+      "weight": 3
     },
     {
       "id": "f416640c-9c5f-4695-a1af-c3632dc4218b",
@@ -1153,7 +1327,9 @@
         -4,
         -5306
       ],
-      "weight": 17,
+      "address": {
+        "town": "Tyndrum"
+      },
       "dataSource": "railinfo:112:0",
       "transportLines": [
         "IR1",
@@ -1161,7 +1337,8 @@
         "R 586",
         "RE 581",
         "RE 582"
-      ]
+      ],
+      "weight": 8
     },
     {
       "id": "e48b7006-2b01-40d9-903a-97d632e8e44b",
@@ -1172,14 +1349,17 @@
         820,
         -7044
       ],
-      "weight": 13,
+      "address": {
+        "town": "Überbergen"
+      },
       "dataSource": "railinfo:162:0",
       "transportLines": [
         "R 576",
         "R159",
         "RE 581",
         "RE 582"
-      ]
+      ],
+      "weight": 6
     },
     {
       "id": "090a3ab5-0b90-41f9-9faf-00037462fa45",
@@ -1190,12 +1370,15 @@
         1436,
         -7043
       ],
-      "weight": 6,
+      "address": {
+        "town": "Unterbergen"
+      },
       "dataSource": "railinfo:123:0",
       "transportLines": [
         "R 576",
         "R159"
-      ]
+      ],
+      "weight": 3
     },
     {
       "id": "0dc3cbdf-bb7e-47d7-b3c9-ea2d93a4bb90",
@@ -1206,7 +1389,9 @@
         707,
         -5302
       ],
-      "weight": 34,
+      "address": {
+        "town": "Wiesental"
+      },
       "dataSource": "railinfo:173:0",
       "transportLines": [
         "HS70",
@@ -1219,7 +1404,8 @@
         "R93",
         "RE 581",
         "RE 582"
-      ]
+      ],
+      "weight": 17
     },
     {
       "id": "462c057c-edce-4f31-b77f-b83e483ac82d",
@@ -1230,12 +1416,294 @@
         2526,
         -6766
       ],
-      "weight": 6,
+      "address": {
+        "town": "Zollhaus"
+      },
       "dataSource": "railinfo:305:0",
       "transportLines": [
         "R 575",
         "R159"
-      ]
+      ],
+      "weight": 3
+    },
+    {
+      "id": "bb0ea147-c7d5-4320-ba94-48f7bace3106",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Côte-Vertu",
+      "coords": [
+        -1558,
+        -4064
+      ],
+      "address": {
+        "town": "Côte-Vertu"
+      },
+      "transportLines": [
+        "HS13",
+        "HS20",
+        "HS842",
+        "IC98",
+        "R 585",
+        "R91",
+        "R92",
+        "R93",
+        "R94"
+      ],
+      "dataSource": "railinfo:85:0",
+      "weight": 15
+    },
+    {
+      "id": "59831c2b-4de1-4dbc-af93-a8677532c554",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Côte-Vertu TGV",
+      "coords": [
+        -1183,
+        -3722
+      ],
+      "address": {
+        "town": "Côte-Vertu"
+      },
+      "transportLines": [
+        "HS 595",
+        "HS21",
+        "R 585",
+        "R93"
+      ],
+      "dataSource": "railinfo:184:0",
+      "weight": 6
+    },
+    {
+      "id": "7948d577-94d3-4378-9a1c-4cdaa41bf660",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Fairyfield",
+      "coords": [
+        -1253,
+        -1242
+      ],
+      "address": {
+        "town": "Silverfall"
+      },
+      "transportLines": [
+        "R26"
+      ],
+      "dataSource": "railinfo:54:0",
+      "weight": 1
+    },
+    {
+      "id": "f38d55fb-ea22-48a3-995d-48045b7eeb9b",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Ivory Beach",
+      "coords": [
+        -1002,
+        -1563
+      ],
+      "address": {
+        "town": "Silverfall"
+      },
+      "transportLines": [
+        "R26",
+        "R92",
+        "R95"
+      ],
+      "dataSource": "railinfo:96:0",
+      "weight": 5
+    },
+    {
+      "id": "bfdb2810-286a-4ba3-b560-701315c5e302",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Otterland",
+      "coords": [
+        -1354,
+        -2580
+      ],
+      "address": {
+        "town": "Silverfall"
+      },
+      "transportLines": [
+        "R92"
+      ],
+      "dataSource": "railinfo:175:0",
+      "weight": 1
+    },
+    {
+      "id": "70ec7935-a3d7-404b-8a1e-0de98e6f911d",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Pripyat",
+      "coords": [
+        -1335,
+        -2126
+      ],
+      "address": {
+        "town": "Silverfall"
+      },
+      "transportLines": [
+        "R92"
+      ],
+      "dataSource": "railinfo:99:0",
+      "weight": 1
+    },
+    {
+      "id": "b371e1eb-3241-48e4-8ff1-3f82f88fd1ba",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Sequoia Square",
+      "coords": [
+        -1465,
+        -1767
+      ],
+      "address": {
+        "town": "Silverfall"
+      },
+      "transportLines": [
+        "R95"
+      ],
+      "dataSource": "railinfo:227:0",
+      "weight": 1
+    },
+    {
+      "id": "730eae9c-5e92-49c7-98a7-4dd375b6287c",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Silverfall",
+      "coords": [
+        40,
+        -1180
+      ],
+      "address": {
+        "town": "Silverfall"
+      },
+      "transportLines": [
+        "HS 595",
+        "HS13",
+        "HS20",
+        "HS21",
+        "HS300",
+        "HS842",
+        "IC23",
+        "IC25",
+        "IR704",
+        "R24",
+        "R241",
+        "R26",
+        "R28",
+        "R92",
+        "R95",
+        "RE22",
+        "RE44",
+        "RE55",
+        "S2",
+        "SL701"
+      ],
+      "dataSource": "railinfo:177:0",
+      "weight": 34
+    },
+    {
+      "id": "0b01f687-78f1-4240-98e2-ad0d93f3bdc2",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Silverfall South",
+      "coords": [
+        -457,
+        -1039
+      ],
+      "address": {
+        "town": "Silverfall"
+      },
+      "transportLines": [
+        "R24",
+        "R241"
+      ],
+      "dataSource": "railinfo:185:0",
+      "weight": 3
+    },
+    {
+      "id": "71676451-b328-4f42-bdc5-395e62142953",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Silverfall Works",
+      "coords": [
+        -627,
+        -1286
+      ],
+      "address": {
+        "town": "Silverfall"
+      },
+      "transportLines": [
+        "R26",
+        "R92",
+        "R95"
+      ],
+      "dataSource": "railinfo:1:0",
+      "weight": 5
+    },
+    {
+      "id": "e8561d74-8eb5-4f9c-8544-344a2dadb0e5",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Waterford",
+      "coords": [
+        -2007,
+        -2184
+      ],
+      "address": {
+        "town": "Silverfall"
+      },
+      "transportLines": [
+        "IR704",
+        "R95"
+      ],
+      "dataSource": "railinfo:228:0",
+      "weight": 3
+    },
+    {
+      "id": "9ded679f-26bd-4800-931a-66cd8ad5da10",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Quartzacia",
+      "coords": [
+        -1320,
+        -2984
+      ],
+      "weight": 1,
+      "transportLines": [
+        "R92"
+      ],
+      "dataSource": "railinfo:147:0"
+    },
+    {
+      "id": "14a24553-8c99-4da9-a2e6-57142cd90cf5",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Sludgepoint",
+      "coords": [
+        -1575,
+        -3090
+      ],
+      "weight": 1,
+      "transportLines": [
+        "R92"
+      ],
+      "dataSource": "railinfo:172:0"
+    },
+    {
+      "id": "27cc1818-b7be-499c-83b1-14a3e29143a0",
+      "type": "transport-stop",
+      "subtype": "public-rail",
+      "label": "Toxic Caves",
+      "coords": [
+        -2434,
+        -4242
+      ],
+      "weight": 1,
+      "transportLines": [
+        "R91"
+      ],
+      "dataSource": "railinfo:58:0"
     }
   ],
   "transportLines": [

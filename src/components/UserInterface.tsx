@@ -1,38 +1,14 @@
 import {
-  createContext,
   useCallback,
-  useContext,
   useEffect,
   useState,
-  type Dispatch,
   type ReactNode,
-  type SetStateAction,
 } from "react";
 import { useMap, useMapEvents } from "react-leaflet";
 import { useEventListener } from "usehooks-ts";
 import { getPoi, useData } from "../data";
+import { UIContext, type ToastOptions } from "../util/useUI";
 import crs from "../util/crs";
-
-interface ToastOptions {
-  text: string;
-  duration?: number;
-}
-
-interface API {
-  focusedPoi: string | null;
-  setFocusedPoi: Dispatch<SetStateAction<string | null>>;
-  showToast: (options: ToastOptions) => void;
-}
-
-const UIContext = createContext<API>({
-  focusedPoi: null,
-  setFocusedPoi: () => {},
-  showToast: () => {},
-});
-
-export function useUI() {
-  return useContext(UIContext);
-}
 
 export default function UserInterface(props: { children?: ReactNode }) {
   const map = useMap();
@@ -66,7 +42,7 @@ export default function UserInterface(props: { children?: ReactNode }) {
         map.setView(crs.xz(cx, cz), zm, { animate: false });
       }
     },
-    [map, data, focusedPoi],
+    [map, data],
   );
 
   const updateToHash = useCallback(() => {
@@ -78,11 +54,11 @@ export default function UserInterface(props: { children?: ReactNode }) {
 
   useEffect(() => {
     updateFromHash(true);
-  }, [data]);
+  }, [updateFromHash]);
 
   useEffect(() => {
     updateToHash();
-  }, [focusedPoi]);
+  }, [updateToHash]);
 
   useEffect(() => {
     if (!toast) return;
@@ -101,8 +77,23 @@ export default function UserInterface(props: { children?: ReactNode }) {
   });
 
   useMapEvents({
-    click() {
-      setFocusedPoi(null);
+    mousedown(ev) {
+      let marker = false;
+      if (ev.originalEvent.target instanceof HTMLElement) {
+        let target: HTMLElement | null = ev.originalEvent.target;
+        while (target !== null) {
+          if (target.classList.contains("poi")) {
+            marker = true;
+            break;
+          }
+
+          target = target.parentElement;
+        }
+      }
+
+      if (!marker) {
+        setFocusedPoi(null);
+      }
     },
     moveend() {
       updateToHash();
