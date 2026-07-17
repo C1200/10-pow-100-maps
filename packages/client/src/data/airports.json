@@ -1,0 +1,28 @@
+{
+  "poi": [
+    {
+      "id": "5c8b23a3-4d8c-40b4-ab29-a12d8fbb8ba4",
+      "marker": "pinlet:airport",
+      "short": "Airport",
+      "label": "Salzingen International Airport (SLZ)",
+      "coords": [2406, 1048],
+      "rweight": 62
+    },
+    {
+      "id": "4d595490-5f86-4730-97b7-deaac3173786",
+      "marker": "pinlet:airport",
+      "short": "Airport",
+      "label": "Waterville International Airport (WTV)",
+      "coords": [8853, -56],
+      "rweight": 59
+    },
+    {
+      "id": "8751dc98-45cf-4260-8f00-6ca090278470",
+      "marker": "pinlet:airport",
+      "short": "Airport",
+      "label": "Kelton-Ashford Helipad",
+      "coords": [9720, -4745],
+      "rweight": 2
+    }
+  ]
+}

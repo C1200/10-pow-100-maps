@@ -1,0 +1,64 @@
+{
+  "poi": [
+    {
+      "id": "ecf41b67-5680-4da5-882f-c4c15604bd52",
+      "highPriority": 3,
+      "label": "Spawn",
+      "coords": [2103, -937],
+      "rweight": 7376
+    },
+    {
+      "id": "c57b3d87-e127-4dfb-a863-6593e86550c5",
+      "highPriority": 3,
+      "type": "settlement",
+      "subtype": "city",
+      "label": "Salzingen",
+      "coords": [2067, 2459],
+      "rweight": 2643
+    },
+    {
+      "id": "3f1841b7-6ac3-46a5-af22-3b1e21845154",
+      "highPriority": 3,
+      "type": "settlement",
+      "subtype": "city",
+      "label": "Liverpool",
+      "coords": [7705, -6686],
+      "rweight": 952
+    },
+    {
+      "id": "ef9b275c-cbc1-4421-b1e6-bac4dad63d04",
+      "highPriority": 2,
+      "label": "Prescot",
+      "coords": [6213, -6372],
+      "rweight": 58
+    },
+    {
+      "id": "8ff5b277-0e43-47b7-af8d-54403695db07",
+      "highPriority": 2,
+      "label": "Lavender Valley",
+      "coords": [2026, 161],
+      "rweight": 609
+    },
+    {
+      "id": "08840354-cddb-4f0d-bb4c-8fb57c0648b2",
+      "highPriority": 3,
+      "label": "New Glasgow",
+      "coords": [2606, -2090],
+      "rweight": 679
+    },
+    {
+      "id": "6e82a89a-f6e8-4cce-a6ba-265c8d7614ac",
+      "highPriority": 2,
+      "label": "Torcastle",
+      "coords": [-1280, -6206],
+      "rweight": 262
+    },
+    {
+      "id": "bf096337-de7d-4565-89d9-2d033c76e629",
+      "highPriority": 3,
+      "label": "Silverfall",
+      "coords": [-700, -1700],
+      "rweight": 1958
+    }
+  ]
+}

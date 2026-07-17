@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons");
+
+* {
+  font-family: "Google Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.leaflet-container {
+  background-color: #000;
+  position: absolute !important;
+  inset: 0;
+}
+
+.leaflet-tile {
+  object-fit: none;
+  object-position: top left;
+  image-rendering: crisp-edges;
+}
+
+.leaflet-grab {
+  cursor: default;
+}
+
+.leaflet-dragging .leaflet-grab {
+  cursor: move;
+}

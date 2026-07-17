@@ -1,0 +1,28 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "10-pow-100-maps",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-13",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "APP_URL": "https://10-pow-100-maps.vercel.app",
+    "BLUEMAP_URL": "http://server.mrjulsen.de:8100",
+    "BLUEMAP_WORLD": "world",
+    "DISCORD_ID": "1526337278866231417"
+  },
+  "secrets": {
+    "required": ["DISCORD_SECRET"],
+  }//,
+  //"r2_buckets": [
+  //  {
+  //    "binding": "FILES",
+  //    "bucket_name": "10-pow-100-maps"
+  //  }
+  //],
+  //"d1_databases": [
+  //  {
+  //    "binding": "DATA",
+  //    "database_name": "10-pow-100-maps"
+  //  }
+  //]
+}

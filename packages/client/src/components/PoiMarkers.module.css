@@ -1,0 +1,78 @@
+.poi {
+  opacity: 1;
+  visibility: visible;
+  transition:
+    visibility 0.15s,
+    opacity 0.15s;
+}
+
+.poiHidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.poi > div {
+  width: 100%;
+  height: 100%;
+}
+
+.poiMarker {
+  display: block;
+  height: 100%;
+  margin: auto;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.5));
+}
+
+.poiLabel {
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: normal;
+  margin: 0;
+  padding: 2px;
+  color: #fff;
+  text-shadow:
+    -1px -1px #000,
+    1px 1px #000,
+    -1px 1px #000,
+    1px -1px #000,
+    0 -1px #000,
+    0 1px #000;
+}
+
+.poiLabelHide {
+  visibility: hidden;
+}
+
+.poi:hover .poiLabel {
+  color: #619cf2 !important;
+}
+
+/* Transport Stops */
+
+.poiType-transport-stop .poiLabel {
+  color: #bbb;
+}
+
+/* Settlements */
+
+.labelOnly .poiLabel {
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.highPriority3 .poiLabel {
+  font-size: 16px;
+}
+
+.highPriority2 .poiLabel {
+  font-size: 14px;
+}
+
+.highPriority1 .poiLabel {
+  font-size: 12px;
+}
